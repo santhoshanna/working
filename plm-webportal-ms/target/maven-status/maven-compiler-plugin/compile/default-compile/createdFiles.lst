@@ -1,0 +1,16 @@
+com\jci\portal\service\PLMWebPortalServiceImpl.class
+com\jci\portal\service\PLMWebPortalService.class
+com\jci\portal\domain\PLMGraphData.class
+com\jci\portal\domain\PLMPayloadTableEntity.class
+com\jci\portal\domain\PLMDetailsResponse.class
+com\jci\portal\domain\SymixData.class
+com\jci\portal\domain\PLMRequestParam.class
+com\jci\portal\domain\MiscTableEntity.class
+com\jci\portal\domain\PLMFailureData.class
+com\jci\portal\PlmWebportalMsApplication.class
+com\jci\portal\domain\PLMSucessData.class
+com\jci\portal\domain\PLMUserTableEntity.class
+com\jci\portal\controller\PLMWebPortalController.class
+com\jci\portal\domain\Pagination.class
+com\jci\portal\dao\PLMWebPortalDAO.class
+com\jci\portal\dao\PLMWebPortalDAOImpl.class

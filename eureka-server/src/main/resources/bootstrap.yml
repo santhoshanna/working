@@ -1,0 +1,84 @@
+server:
+  port: 8761
+
+spring:
+  profiles:
+    active: development-cloud
+---
+spring:
+  profiles: development-cloud  
+  application:
+    name: eureka-server    
+eureka:
+  client:
+    register-with-eureka: false
+    eureka-service-url-poll-interval-seconds: 500000
+    enabled: true
+    proxy-user-name: cups
+    fetch-registry: true
+  instance:
+    prefer-ip-address: false
+  #  non-secure-port: 80
+    
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+  file: logs/eureka-server.log
+
+#spring:
+ # cloud:
+  ##  config:
+    #  uri: http://localhost:8888  
+---
+spring:
+  profiles: qa-cloud  
+  application:
+    name: eureka-server    
+eureka:
+  client:
+    register-with-eureka: false
+    eureka-service-url-poll-interval-seconds: 500000
+    enabled: true
+    proxy-user-name: cups
+    fetch-registry: true
+  instance:
+    prefer-ip-address: false
+    non-secure-port: 80
+    
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+  file: logs/eureka-server.log
+
+#spring:
+ # cloud:
+  ##  config:
+    #  uri: http://localhost:8888      
+---
+spring:
+  profiles: production-cloud  
+  application:
+    name: eureka-server    
+eureka:
+  client:
+    register-with-eureka: false
+    eureka-service-url-poll-interval-seconds: 500000
+    enabled: true
+    proxy-user-name: cups
+    fetch-registry: true
+  instance:
+    prefer-ip-address: false
+    non-secure-port: 80
+    
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+  file: logs/eureka-server.log
+
+#spring:
+ # cloud:
+  ##  config:
+    #  uri: http://localhost:8888    

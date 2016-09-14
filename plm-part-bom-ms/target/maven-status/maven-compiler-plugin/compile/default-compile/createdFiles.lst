@@ -1,0 +1,7 @@
+com\jci\partbom\service\PLMPartBomService.class
+com\jci\partbom\dao\PLMPartBomDaoImpl.class
+com\jci\partbom\PLMPartBomApplication.class
+com\jci\partbom\domain\PLMPayloadTableEntity.class
+com\jci\partbom\service\PLMPartBomServiceImpl.class
+com\jci\partbom\domain\MiscTableEntity.class
+com\jci\partbom\dao\PLMPartBomDao.class

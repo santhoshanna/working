@@ -1,0 +1,5 @@
+com\jci\payloadprocess\domain\ERPMapperEntity.class
+com\jci\payloadprocess\domain\ERPMapper.class
+com\jci\payloadprocess\service\PLMProcessPayloadService.class
+com\jci\payloadprocess\service\PLMProcessPayloadServiceImpl.class
+com\jci\payloadprocess\PLMPayloadProcessMsApplication.class

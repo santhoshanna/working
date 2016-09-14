@@ -1,0 +1,5 @@
+com\jci\subscriber\service\PLMSubscriberMSService.class
+com\jci\subscriber\dao\PLMSubscriberMSDaoImpl.class
+com\jci\subscriber\dao\PLMSubscriberMSDao.class
+com\jci\subscriber\service\PLMSubscriberMSServiceImpl.class
+com\jci\subscriber\PLMSubscriberMSApplication.class

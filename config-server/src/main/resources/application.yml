@@ -1,0 +1,37 @@
+ server:
+   port: 8888
+ spring:
+   cloud:
+     config:
+       server:
+         git:
+            uri: file://C:/Users/cdeshma2/Desktop/Apigee/work/controls-plm-config
+          
+# # cloud:
+# #    config:
+# #      enabled: true
+
+
+#===================================================
+#server:
+ # port: 8888
+#spring:
+ # application:
+  #  name: config-server     
+  #profiles:
+  #  active: development-cloud       
+  #cloud:
+  #  config:
+   #   enabled: false # note this needs to be turned on if you wnat the config server to work
+    #  server:
+     #    git:
+      #    uri: https://santhoshanna@github.com/santhoshanna/config-server
+       #   password: saibaba786
+#logging:
+ # file: F://application_logs/${spring.application.name}.log
+  #levels:
+   # org.springframework.boot.env.PropertySourcesLoader: TRACE
+    #org.springframework.cloud.config.server: DEBUG  
+
+
+

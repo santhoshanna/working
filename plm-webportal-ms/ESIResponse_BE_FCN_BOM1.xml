@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLECTION>
+
+<Release NAME="Release" TYPE="Unknown" STATUS="0">
+<Transaction>
+    <TransactionNumber>9999</TransactionNumber>
+    <ReleaseNumber>25</ReleaseNumber>
+    <PrimaryObjectID>OR:wt.change2.WTChangeOrder2:102708:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</PrimaryObjectID>
+    <CreatedBy>beOrgAdmin</CreatedBy>
+    <CreatedDate>2016-08-10 22:08:39 EDT</CreatedDate>
+    <Locale>en_US</Locale>
+    <Destination>FILE-DEV</Destination>
+</Transaction>
+</Release>
+<DeletedECN NAME="DeletedECN" TYPE="Unknown" STATUS="0">
+</DeletedECN>
+<AddedECN NAME="AddedECN" TYPE="Unknown" STATUS="0">
+<ECNHeader>
+    <ObjectID>OR:wt.change2.WTChangeOrder2:102708:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.ChangeHeader</Class>
+    <LastChangedBy></LastChangedBy>
+    <Number>CN00014</Number>
+    <Name>BOM0007 NPI</Name>
+    <Description>BOM0007 NPI</Description>
+    <Type>Factory Change Notice</Type>
+    <ResolutionDate></ResolutionDate>
+    <CreatedBy>beOrgAdmin</CreatedBy>
+    <CreatedOn>2016-08-10 22:07:23 EDT</CreatedOn>
+    <TargetID>FILE-DEV</TargetID>
+</ECNHeader>
+</AddedECN>
+<ChangedECN NAME="ChangedECN" TYPE="Unknown" STATUS="0">
+</ChangedECN>
+<UnchangedECN NAME="UnchangedECN" TYPE="Unknown" STATUS="0">
+</UnchangedECN>
+<DeletedParts NAME="DeletedParts" TYPE="Unknown" STATUS="0">
+</DeletedParts>
+<AddedParts NAME="AddedParts" TYPE="Unknown" STATUS="0">
+<Part>
+    <ObjectID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.Part</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>BOM0007</Number>
+    <StartEffectivity>2016-08-10 00:00:00</StartEffectivity>
+    <EndEffectivity>2016-12-31 00:00:00</EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+    <Description>BOM0007</Description>
+    <PartType>separable</PartType>
+    <ProcurementType>make</ProcurementType>
+    <ItemStatus>PRODUCTIONRELEASED</ItemStatus>
+    <View></View>
+    <StorageLocation></StorageLocation>
+    <Phantom>false</Phantom>
+    <Revision>-</Revision>
+    <Iteration>2</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <IsConfigurable>false</IsConfigurable>
+    <Classification></Classification>
+    <IsCollapsible>false</IsCollapsible>
+    <AgencyRequired>No</AgencyRequired>
+    <CodeNumber></CodeNumber>
+    <EngineeringDescription>BOM0007</EngineeringDescription>
+    <ROHSRequired>No</ROHSRequired>
+    <Weight>12kg</Weight>
+    <GlobalPartNumber></GlobalPartNumber>
+    <Length></Length>
+    <Width></Width>
+    <Height></Height>
+    <ProjectNumber></ProjectNumber>
+    <MaterialType>Moving material 5</MaterialType>
+    <PartFamilyCode></PartFamilyCode>
+    <BuyAmerican>No</BuyAmerican>
+    <BuyAmericanXref></BuyAmericanXref>
+    <MatlGroup></MatlGroup>
+    <LabOffice></LabOffice>
+    <WeightUnits></WeightUnits>
+    <DimensionUnits></DimensionUnits>
+    <ProdHierarchy></ProdHierarchy>
+    <ItemCategoryGroup></ItemCategoryGroup>
+    <MRPType></MRPType>
+    <MfgPartNumber></MfgPartNumber>
+    <MfgNumber></MfgNumber>
+    <MfgName></MfgName>
+    <SerialNumber></SerialNumber>
+    <CADIndicator></CADIndicator>
+    <CountryOfOrigin></CountryOfOrigin>
+    <StdCost></StdCost>
+    <MaterialCost></MaterialCost>
+    <AccumMaterialCost></AccumMaterialCost>
+    <BuildToOrder></BuildToOrder>
+    <CommodityCode></CommodityCode>
+    <YearUsage></YearUsage>
+    <YearForecast></YearForecast>
+    <SalesLeadTime></SalesLeadTime>
+    <MinCustOrderQty></MinCustOrderQty>
+    <PackQty></PackQty>
+    <PackType></PackType>
+    <PlannerID></PlannerID>
+    <PlannerCode></PlannerCode>
+    <OrderMinQty></OrderMinQty>
+    <OrderMultiple></OrderMultiple>
+    <MfgShipPlant></MfgShipPlant>
+    <StockWarehouse></StockWarehouse>
+    <AssembledToOrder></AssembledToOrder>
+    <Stockable></Stockable>
+    <SubAssembly></SubAssembly>
+    <StandardLeadTime></StandardLeadTime>
+    <BuyerID></BuyerID>
+    <SingleSourced></SingleSourced>
+    <VendorNumber></VendorNumber>
+    <VendorName></VendorName>
+    <VendorItem></VendorItem>
+    <VendorUOM></VendorUOM>
+    <ConversionFactor></ConversionFactor>
+    <VendorLeadTime></VendorLeadTime>
+    <QuoteQty></QuoteQty>
+    <QuoteCost></QuoteCost>
+    <QuoteDate></QuoteDate>
+    <MfgLeadTime></MfgLeadTime>
+    <NoCancelReturn></NoCancelReturn>
+    <ExtendedABCCode></ExtendedABCCode>
+    <PurRevisionEffectivityDate></PurRevisionEffectivityDate>
+    <FixedLeadTime></FixedLeadTime>
+    <AutoReplenish></AutoReplenish>
+    <AcceptRequirements></AcceptRequirements>
+    <ReplenishDays></ReplenishDays>
+    <TargetID>FILE-DEV</TargetID>
+</Part>
+<Part>
+    <ObjectID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.Part</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>BOM0007</Number>
+    <StartEffectivity>2016-08-10 00:00:00</StartEffectivity>
+    <EndEffectivity>2016-12-31 00:00:00</EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+    <Description>BOM0007</Description>
+    <PartType>separable</PartType>
+    <ProcurementType>make</ProcurementType>
+    <ItemStatus>PRODUCTIONRELEASED</ItemStatus>
+    <View></View>
+    <StorageLocation></StorageLocation>
+    <Phantom>false</Phantom>
+    <Revision>-</Revision>
+    <Iteration>2</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <IsConfigurable>false</IsConfigurable>
+    <Classification></Classification>
+    <IsCollapsible>false</IsCollapsible>
+    <AgencyRequired>No</AgencyRequired>
+    <CodeNumber></CodeNumber>
+    <EngineeringDescription>BOM0007</EngineeringDescription>
+    <ROHSRequired>No</ROHSRequired>
+    <Weight>12kg</Weight>
+    <GlobalPartNumber></GlobalPartNumber>
+    <Length></Length>
+    <Width></Width>
+    <Height></Height>
+    <ProjectNumber></ProjectNumber>
+    <MaterialType>Moving material 6</MaterialType>
+    <PartFamilyCode></PartFamilyCode>
+    <BuyAmerican>No</BuyAmerican>
+    <BuyAmericanXref></BuyAmericanXref>
+    <MatlGroup></MatlGroup>
+    <LabOffice></LabOffice>
+    <WeightUnits></WeightUnits>
+    <DimensionUnits></DimensionUnits>
+    <ProdHierarchy></ProdHierarchy>
+    <ItemCategoryGroup></ItemCategoryGroup>
+    <MRPType></MRPType>
+    <MfgPartNumber></MfgPartNumber>
+    <MfgNumber></MfgNumber>
+    <MfgName></MfgName>
+    <SerialNumber></SerialNumber>
+    <CADIndicator></CADIndicator>
+    <CountryOfOrigin></CountryOfOrigin>
+    <StdCost></StdCost>
+    <MaterialCost></MaterialCost>
+    <AccumMaterialCost></AccumMaterialCost>
+    <BuildToOrder></BuildToOrder>
+    <CommodityCode></CommodityCode>
+    <YearUsage></YearUsage>
+    <YearForecast></YearForecast>
+    <SalesLeadTime></SalesLeadTime>
+    <MinCustOrderQty></MinCustOrderQty>
+    <PackQty></PackQty>
+    <PackType></PackType>
+    <PlannerID></PlannerID>
+    <PlannerCode></PlannerCode>
+    <OrderMinQty></OrderMinQty>
+    <OrderMultiple></OrderMultiple>
+    <MfgShipPlant></MfgShipPlant>
+    <StockWarehouse></StockWarehouse>
+    <AssembledToOrder></AssembledToOrder>
+    <Stockable></Stockable>
+    <SubAssembly></SubAssembly>
+    <StandardLeadTime></StandardLeadTime>
+    <BuyerID></BuyerID>
+    <SingleSourced></SingleSourced>
+    <VendorNumber></VendorNumber>
+    <VendorName></VendorName>
+    <VendorItem></VendorItem>
+    <VendorUOM></VendorUOM>
+    <ConversionFactor></ConversionFactor>
+    <VendorLeadTime></VendorLeadTime>
+    <QuoteQty></QuoteQty>
+    <QuoteCost></QuoteCost>
+    <QuoteDate></QuoteDate>
+    <MfgLeadTime></MfgLeadTime>
+    <NoCancelReturn></NoCancelReturn>
+    <ExtendedABCCode></ExtendedABCCode>
+    <PurRevisionEffectivityDate></PurRevisionEffectivityDate>
+    <FixedLeadTime></FixedLeadTime>
+    <AutoReplenish></AutoReplenish>
+    <AcceptRequirements></AcceptRequirements>
+    <ReplenishDays></ReplenishDays>
+    <TargetID>FILE-DEV</TargetID>
+</Part>
+<Part>
+    <ObjectID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.Part</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>BOM0007</Number>
+    <StartEffectivity>2016-08-10 00:00:00</StartEffectivity>
+    <EndEffectivity>2016-12-31 00:00:00</EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+    <Description>BOM0007</Description>
+    <PartType>separable</PartType>
+    <ProcurementType>make</ProcurementType>
+    <ItemStatus>PRODUCTIONRELEASED</ItemStatus>
+    <View></View>
+    <StorageLocation></StorageLocation>
+    <Phantom>false</Phantom>
+    <Revision>-</Revision>
+    <Iteration>2</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <IsConfigurable>false</IsConfigurable>
+    <Classification></Classification>
+    <IsCollapsible>false</IsCollapsible>
+    <AgencyRequired>No</AgencyRequired>
+    <CodeNumber></CodeNumber>
+    <EngineeringDescription>BOM0007</EngineeringDescription>
+    <ROHSRequired>No</ROHSRequired>
+    <Weight>12kg</Weight>
+    <GlobalPartNumber></GlobalPartNumber>
+    <Length></Length>
+    <Width></Width>
+    <Height></Height>
+    <ProjectNumber></ProjectNumber>
+    <MaterialType>Moving material 4</MaterialType>
+    <PartFamilyCode></PartFamilyCode>
+    <BuyAmerican>No</BuyAmerican>
+    <BuyAmericanXref></BuyAmericanXref>
+    <MatlGroup></MatlGroup>
+    <LabOffice></LabOffice>
+    <WeightUnits></WeightUnits>
+    <DimensionUnits></DimensionUnits>
+    <ProdHierarchy></ProdHierarchy>
+    <ItemCategoryGroup></ItemCategoryGroup>
+    <MRPType></MRPType>
+    <MfgPartNumber></MfgPartNumber>
+    <MfgNumber></MfgNumber>
+    <MfgName></MfgName>
+    <SerialNumber></SerialNumber>
+    <CADIndicator></CADIndicator>
+    <CountryOfOrigin></CountryOfOrigin>
+    <StdCost></StdCost>
+    <MaterialCost></MaterialCost>
+    <AccumMaterialCost></AccumMaterialCost>
+    <BuildToOrder></BuildToOrder>
+    <CommodityCode></CommodityCode>
+    <YearUsage></YearUsage>
+    <YearForecast></YearForecast>
+    <SalesLeadTime></SalesLeadTime>
+    <MinCustOrderQty></MinCustOrderQty>
+    <PackQty></PackQty>
+    <PackType></PackType>
+    <PlannerID></PlannerID>
+    <PlannerCode></PlannerCode>
+    <OrderMinQty></OrderMinQty>
+    <OrderMultiple></OrderMultiple>
+    <MfgShipPlant></MfgShipPlant>
+    <StockWarehouse></StockWarehouse>
+    <AssembledToOrder></AssembledToOrder>
+    <Stockable></Stockable>
+    <SubAssembly></SubAssembly>
+    <StandardLeadTime></StandardLeadTime>
+    <BuyerID></BuyerID>
+    <SingleSourced></SingleSourced>
+    <VendorNumber></VendorNumber>
+    <VendorName></VendorName>
+    <VendorItem></VendorItem>
+    <VendorUOM></VendorUOM>
+    <ConversionFactor></ConversionFactor>
+    <VendorLeadTime></VendorLeadTime>
+    <QuoteQty></QuoteQty>
+    <QuoteCost></QuoteCost>
+    <QuoteDate></QuoteDate>
+    <MfgLeadTime></MfgLeadTime>
+    <NoCancelReturn></NoCancelReturn>
+    <ExtendedABCCode></ExtendedABCCode>
+    <PurRevisionEffectivityDate></PurRevisionEffectivityDate>
+    <FixedLeadTime></FixedLeadTime>
+    <AutoReplenish></AutoReplenish>
+    <AcceptRequirements></AcceptRequirements>
+    <ReplenishDays></ReplenishDays>
+    <TargetID>FILE-DEV</TargetID>
+</Part>
+
+</AddedParts>
+<ChangedParts NAME="ChangedParts" TYPE="Unknown" STATUS="0">
+</ChangedParts>
+<UnchangedParts NAME="UnchangedParts" TYPE="Unknown" STATUS="0">
+<Part>
+    <ObjectID>OR:wt.part.WTPart:98229:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.Part</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>RAC0006</Number>
+    <StartEffectivity></StartEffectivity>
+    <EndEffectivity></EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+    <Description>RAC0006</Description>
+    <PartType>separable</PartType>
+    <ProcurementType>make</ProcurementType>
+    <ItemStatus>RELEASED</ItemStatus>
+    <View></View>
+    <StorageLocation></StorageLocation>
+    <Phantom>false</Phantom>
+    <Revision>-</Revision>
+    <Iteration>1</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <IsConfigurable>false</IsConfigurable>
+    <Classification></Classification>
+    <IsCollapsible>false</IsCollapsible>
+    <AgencyRequired>No</AgencyRequired>
+    <CodeNumber></CodeNumber>
+    <EngineeringDescription>RAC0006</EngineeringDescription>
+    <ROHSRequired>No</ROHSRequired>
+    <Weight></Weight>
+    <GlobalPartNumber></GlobalPartNumber>
+    <Length></Length>
+    <Width></Width>
+    <Height></Height>
+    <ProjectNumber></ProjectNumber>
+    <MaterialType>MOVing Material 1</MaterialType>
+    <PartFamilyCode></PartFamilyCode>
+    <BuyAmerican>No</BuyAmerican>
+    <BuyAmericanXref></BuyAmericanXref>
+    <MatlGroup></MatlGroup>
+    <LabOffice></LabOffice>
+    <WeightUnits></WeightUnits>
+    <DimensionUnits></DimensionUnits>
+    <ProdHierarchy></ProdHierarchy>
+    <ItemCategoryGroup></ItemCategoryGroup>
+    <MRPType></MRPType>
+    <MfgPartNumber></MfgPartNumber>
+    <MfgNumber></MfgNumber>
+    <MfgName></MfgName>
+    <SerialNumber></SerialNumber>
+    <CADIndicator></CADIndicator>
+    <CountryOfOrigin></CountryOfOrigin>
+    <StdCost></StdCost>
+    <MaterialCost></MaterialCost>
+    <AccumMaterialCost></AccumMaterialCost>
+    <BuildToOrder></BuildToOrder>
+    <CommodityCode></CommodityCode>
+    <YearUsage></YearUsage>
+    <YearForecast></YearForecast>
+    <SalesLeadTime></SalesLeadTime>
+    <MinCustOrderQty></MinCustOrderQty>
+    <PackQty></PackQty>
+    <PackType></PackType>
+    <PlannerID></PlannerID>
+    <PlannerCode></PlannerCode>
+    <OrderMinQty></OrderMinQty>
+    <OrderMultiple></OrderMultiple>
+    <MfgShipPlant></MfgShipPlant>
+    <StockWarehouse></StockWarehouse>
+    <AssembledToOrder></AssembledToOrder>
+    <Stockable></Stockable>
+    <SubAssembly></SubAssembly>
+    <StandardLeadTime></StandardLeadTime>
+    <BuyerID></BuyerID>
+    <SingleSourced></SingleSourced>
+    <VendorNumber></VendorNumber>
+    <VendorName></VendorName>
+    <VendorItem></VendorItem>
+    <VendorUOM></VendorUOM>
+    <ConversionFactor></ConversionFactor>
+    <VendorLeadTime></VendorLeadTime>
+    <QuoteQty></QuoteQty>
+    <QuoteCost></QuoteCost>
+    <QuoteDate></QuoteDate>
+    <MfgLeadTime></MfgLeadTime>
+    <NoCancelReturn></NoCancelReturn>
+    <ExtendedABCCode></ExtendedABCCode>
+    <PurRevisionEffectivityDate></PurRevisionEffectivityDate>
+    <FixedLeadTime></FixedLeadTime>
+    <AutoReplenish></AutoReplenish>
+    <AcceptRequirements></AcceptRequirements>
+    <ReplenishDays></ReplenishDays>
+    <TargetID>FILE-DEV</TargetID>
+</Part>
+<Part>
+    <ObjectID>OR:wt.part.WTPart:100037:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.Part</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>RAC0008</Number>
+    <StartEffectivity></StartEffectivity>
+    <EndEffectivity></EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+    <Description>RAC0008</Description>
+    <PartType>separable</PartType>
+    <ProcurementType>make</ProcurementType>
+    <ItemStatus>RELEASED</ItemStatus>
+    <View></View>
+    <StorageLocation></StorageLocation>
+    <Phantom>false</Phantom>
+    <Revision>-</Revision>
+    <Iteration>1</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <IsConfigurable>false</IsConfigurable>
+    <Classification></Classification>
+    <IsCollapsible>false</IsCollapsible>
+    <AgencyRequired>No</AgencyRequired>
+    <CodeNumber></CodeNumber>
+    <EngineeringDescription>RAC0008</EngineeringDescription>
+    <ROHSRequired>No</ROHSRequired>
+    <Weight></Weight>
+    <GlobalPartNumber></GlobalPartNumber>
+    <Length></Length>
+    <Width></Width>
+    <Height></Height>
+    <ProjectNumber></ProjectNumber>
+    <MaterialType>Moving material 2</MaterialType>
+    <PartFamilyCode></PartFamilyCode>
+    <BuyAmerican>No</BuyAmerican>
+    <BuyAmericanXref></BuyAmericanXref>
+    <MatlGroup></MatlGroup>
+    <LabOffice></LabOffice>
+    <WeightUnits></WeightUnits>
+    <DimensionUnits></DimensionUnits>
+    <ProdHierarchy></ProdHierarchy>
+    <ItemCategoryGroup></ItemCategoryGroup>
+    <MRPType></MRPType>
+    <MfgPartNumber></MfgPartNumber>
+    <MfgNumber></MfgNumber>
+    <MfgName></MfgName>
+    <SerialNumber></SerialNumber>
+    <CADIndicator></CADIndicator>
+    <CountryOfOrigin></CountryOfOrigin>
+    <StdCost></StdCost>
+    <MaterialCost></MaterialCost>
+    <AccumMaterialCost></AccumMaterialCost>
+    <BuildToOrder></BuildToOrder>
+    <CommodityCode></CommodityCode>
+    <YearUsage></YearUsage>
+    <YearForecast></YearForecast>
+    <SalesLeadTime></SalesLeadTime>
+    <MinCustOrderQty></MinCustOrderQty>
+    <PackQty></PackQty>
+    <PackType></PackType>
+    <PlannerID></PlannerID>
+    <PlannerCode></PlannerCode>
+    <OrderMinQty></OrderMinQty>
+    <OrderMultiple></OrderMultiple>
+    <MfgShipPlant></MfgShipPlant>
+    <StockWarehouse></StockWarehouse>
+    <AssembledToOrder></AssembledToOrder>
+    <Stockable></Stockable>
+    <SubAssembly></SubAssembly>
+    <StandardLeadTime></StandardLeadTime>
+    <BuyerID></BuyerID>
+    <SingleSourced></SingleSourced>
+    <VendorNumber></VendorNumber>
+    <VendorName></VendorName>
+    <VendorItem></VendorItem>
+    <VendorUOM></VendorUOM>
+    <ConversionFactor></ConversionFactor>
+    <VendorLeadTime></VendorLeadTime>
+    <QuoteQty></QuoteQty>
+    <QuoteCost></QuoteCost>
+    <QuoteDate></QuoteDate>
+    <MfgLeadTime></MfgLeadTime>
+    <NoCancelReturn></NoCancelReturn>
+    <ExtendedABCCode></ExtendedABCCode>
+    <PurRevisionEffectivityDate></PurRevisionEffectivityDate>
+    <FixedLeadTime></FixedLeadTime>
+    <AutoReplenish></AutoReplenish>
+    <AcceptRequirements></AcceptRequirements>
+    <ReplenishDays></ReplenishDays>
+    <TargetID>FILE-DEV</TargetID>
+</Part>
+<Part>
+    <ObjectID>OR:wt.part.WTPart:98248:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.Part</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>RAC0007</Number>
+    <StartEffectivity></StartEffectivity>
+    <EndEffectivity></EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+    <Description>RAC0007</Description>
+    <PartType>separbable</PartType>
+    <ProcurementType>make</ProcurementType>
+    <ItemStatus>RELEASED</ItemStatus>
+    <View></View>
+    <StorageLocation></StorageLocation>
+    <Phantom>false</Phantom>
+    <Revision>-</Revision>
+    <Iteration>1</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <IsConfigurable>false</IsConfigurable>
+    <Classification></Classification>
+    <IsCollapsible>false</IsCollapsible>
+    <AgencyRequired>No</AgencyRequired>
+    <CodeNumber></CodeNumber>
+    <EngineeringDescription>RAC0007</EngineeringDescription>
+    <ROHSRequired>No</ROHSRequired>
+    <Weight></Weight>
+    <GlobalPartNumber></GlobalPartNumber>
+    <Length></Length>
+    <Width></Width>
+    <Height></Height>
+    <ProjectNumber></ProjectNumber>
+    <MaterialType>Moving material 3</MaterialType>     <!-- bring this -->
+    <PartFamilyCode></PartFamilyCode>
+    <BuyAmerican>No</BuyAmerican>
+    <BuyAmericanXref></BuyAmericanXref>
+    <MatlGroup></MatlGroup>
+    <LabOffice></LabOffice>
+    <WeightUnits></WeightUnits>
+    <DimensionUnits></DimensionUnits>
+    <ProdHierarchy></ProdHierarchy>
+    <ItemCategoryGroup></ItemCategoryGroup>
+    <MRPType></MRPType>
+    <MfgPartNumber></MfgPartNumber>
+    <MfgNumber></MfgNumber>
+    <MfgName></MfgName>
+    <SerialNumber></SerialNumber>
+    <CADIndicator></CADIndicator>
+    <CountryOfOrigin></CountryOfOrigin>
+    <StdCost></StdCost>
+    <MaterialCost></MaterialCost>
+    <AccumMaterialCost></AccumMaterialCost>
+    <BuildToOrder></BuildToOrder>
+    <CommodityCode></CommodityCode>
+    <YearUsage></YearUsage>
+    <YearForecast></YearForecast>
+    <SalesLeadTime></SalesLeadTime>
+    <MinCustOrderQty></MinCustOrderQty>
+    <PackQty></PackQty>
+    <PackType></PackType>
+    <PlannerID></PlannerID>
+    <PlannerCode></PlannerCode>
+    <OrderMinQty></OrderMinQty>
+    <OrderMultiple></OrderMultiple>
+    <MfgShipPlant></MfgShipPlant>
+    <StockWarehouse></StockWarehouse>
+    <AssembledToOrder></AssembledToOrder>
+    <Stockable></Stockable>
+    <SubAssembly></SubAssembly>
+    <StandardLeadTime></StandardLeadTime>
+    <BuyerID></BuyerID>
+    <SingleSourced></SingleSourced>
+    <VendorNumber></VendorNumber>
+    <VendorName></VendorName>
+    <VendorItem></VendorItem>
+    <VendorUOM></VendorUOM>
+    <ConversionFactor></ConversionFactor>
+    <VendorLeadTime></VendorLeadTime>
+    <QuoteQty></QuoteQty>
+    <QuoteCost></QuoteCost>
+    <QuoteDate></QuoteDate>
+    <MfgLeadTime></MfgLeadTime>
+    <NoCancelReturn></NoCancelReturn>
+    <ExtendedABCCode></ExtendedABCCode>
+    <PurRevisionEffectivityDate></PurRevisionEffectivityDate>
+    <FixedLeadTime></FixedLeadTime>
+    <AutoReplenish></AutoReplenish>
+    <AcceptRequirements></AcceptRequirements>
+    <ReplenishDays></ReplenishDays>
+    <TargetID>FILE-DEV</TargetID>
+</Part>
+</UnchangedParts>
+<DeletedAlternateLinks NAME="DeletedAlternateLinks" TYPE="Unknown" STATUS="0">
+</DeletedAlternateLinks>
+<AddedAlternateLinks NAME="AddedAlternateLinks" TYPE="Unknown" STATUS="0">
+</AddedAlternateLinks>
+<DeletedDocuments NAME="DeletedDocuments" TYPE="Unknown" STATUS="0">
+</DeletedDocuments>
+<AddedDocuments NAME="AddedDocuments" TYPE="Unknown" STATUS="0">
+</AddedDocuments>
+<ChangedDocuments NAME="ChangedDocuments" TYPE="Unknown" STATUS="0">
+</ChangedDocuments>
+<UnchangedDocuments NAME="UnchangedDocuments" TYPE="Unknown" STATUS="0">
+</UnchangedDocuments>
+<DeletedDocumentLinks NAME="DeletedDocumentLinks" TYPE="Unknown" STATUS="0">
+</DeletedDocumentLinks>
+<AddedDocumentLinks NAME="AddedDocumentLinks" TYPE="Unknown" STATUS="0">
+</AddedDocumentLinks>
+<ChangedDocumentLinks NAME="ChangedDocumentLinks" TYPE="Unknown" STATUS="0">
+</ChangedDocumentLinks>
+<UnchangedDocumentLinks NAME="UnchangedDocumentLinks" TYPE="Unknown" STATUS="0">
+</UnchangedDocumentLinks>
+<DeletedBOMs NAME="DeletedBOMs" TYPE="Unknown" STATUS="0">
+</DeletedBOMs>
+<AddedBOMs NAME="AddedBOMs" TYPE="Unknown" STATUS="0">
+<BOMHeader>
+    <ObjectID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.BOMHeader</Class>
+    <LastChangedBy>beOrgAdmin</LastChangedBy>
+    <Number>BOM0007</Number>
+    <StartEffectivity>2016-08-10 00:00:00</StartEffectivity>
+    <EndEffectivity>2016-12-31 00:00:00</EndEffectivity>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <SerialNumberEffectivityCxtPartNumber></SerialNumberEffectivityCxtPartNumber>
+    <LotNumberEffectivityCxtPartNumber></LotNumberEffectivityCxtPartNumber>
+    <Version>-</Version>
+    <Iteration>2</Iteration>
+    <PreviousVersion></PreviousVersion>
+    <Usage></Usage>
+    <Alternate></Alternate>
+    <IsCADPhantom>false</IsCADPhantom>
+    <IsCollapsible>false</IsCollapsible>
+    <TargetID>FILE-DEV</TargetID>
+</BOMHeader>
+</AddedBOMs>
+<ChangedBOMs NAME="ChangedBOMs" TYPE="Unknown" STATUS="0">
+</ChangedBOMs>
+<UnchangedBOMs NAME="UnchangedBOMs" TYPE="Unknown" STATUS="0">
+</UnchangedBOMs>
+<DeletedBOMComponents NAME="DeletedBOMComponents" TYPE="Unknown" STATUS="0">
+</DeletedBOMComponents>
+<AddedBOMComponents NAME="AddedBOMComponents" TYPE="Unknown" STATUS="0">
+<BOMComponent>
+    <ObjectID>OR:wt.part.WTPartUsageLink:102662:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.BOMComponent</Class>
+    <PartNumber>RAC0006</PartNumber>
+    <AssemblyPartNumber>BOM0007</AssemblyPartNumber>
+    <AssemblyPartID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+    <Quantity>1</Quantity>
+    <Unit>each</Unit>
+    <LineNumber>10</LineNumber>
+    <FindNumber></FindNumber>
+    <AlternateItemGroup></AlternateItemGroup>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <ComponentId>20c513bf-6095-47a1-a177-9d2ec3aa9ee2</ComponentId>
+    <IsChildPhantom>false</IsChildPhantom>
+    <IsPartConfigurable>false</IsPartConfigurable>
+    <IsPartCollapsible>false</IsPartCollapsible>
+    <ItemCategory></ItemCategory>
+    <SortString></SortString>
+    <TargetID>FILE-DEV</TargetID>
+</BOMComponent>
+<BOMComponent>
+    <ObjectID>OR:wt.part.WTPartUsageLink:102664:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.BOMComponent</Class>
+    <PartNumber>RAC0007</PartNumber>
+    <AssemblyPartNumber>BOM0007</AssemblyPartNumber>
+    <AssemblyPartID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+    <Quantity>1</Quantity>
+    <Unit>each</Unit>
+    <LineNumber>20</LineNumber>
+    <FindNumber></FindNumber>
+    <AlternateItemGroup></AlternateItemGroup>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <ComponentId>79b060f6-68f1-487d-a187-42cfe5fe7bcd</ComponentId>
+    <IsChildPhantom>false</IsChildPhantom>
+    <IsPartConfigurable>false</IsPartConfigurable>
+    <IsPartCollapsible>false</IsPartCollapsible>
+    <ItemCategory></ItemCategory>
+    <SortString></SortString>
+    <TargetID>FILE-DEV</TargetID>
+</BOMComponent>
+<BOMComponent>
+    <ObjectID>OR:wt.part.WTPartUsageLink:102663:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+    <Class>com.ptc.windchill.esi.BOMComponent</Class>
+    <PartNumber>RAC0008</PartNumber>
+    <AssemblyPartNumber>BOM0007</AssemblyPartNumber>
+    <AssemblyPartID>OR:wt.part.WTPart:102646:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+    <Quantity>1</Quantity>
+    <Unit>each</Unit>
+    <LineNumber>30</LineNumber>
+    <FindNumber></FindNumber>
+    <AlternateItemGroup></AlternateItemGroup>
+    <StartSerialNumberEffectivity></StartSerialNumberEffectivity>
+    <EndSerialNumberEffectivity></EndSerialNumberEffectivity>
+    <StartLotNumberEffectivity></StartLotNumberEffectivity>
+    <EndLotNumberEffectivity></EndLotNumberEffectivity>
+    <ComponentId>64957347-cc73-4c77-a791-b69c1f3646aa</ComponentId>
+    <IsChildPhantom>false</IsChildPhantom>
+    <IsPartConfigurable>false</IsPartConfigurable>
+    <IsPartCollapsible>false</IsPartCollapsible>
+    <ItemCategory></ItemCategory>
+    <SortString></SortString>
+    <TargetID>FILE-DEV</TargetID>
+</BOMComponent>
+</AddedBOMComponents>
+<ChangedBOMComponents NAME="ChangedBOMComponents" TYPE="Unknown" STATUS="0">
+</ChangedBOMComponents>
+<UnchangedBOMComponents NAME="UnchangedBOMComponents" TYPE="Unknown" STATUS="0">
+</UnchangedBOMComponents>
+<DeletedSubstitutes NAME="DeletedSubstitutes" TYPE="Unknown" STATUS="0">
+</DeletedSubstitutes>
+<AddedSubstitutes NAME="AddedSubstitutes" TYPE="Unknown" STATUS="0">
+</AddedSubstitutes>
+<DeletedReferenceDesignators NAME="DeletedReferenceDesignators" TYPE="Unknown" STATUS="0">
+</DeletedReferenceDesignators>
+<AddedReferenceDesignators NAME="AddedReferenceDesignators" TYPE="Unknown" STATUS="0">
+</AddedReferenceDesignators>
+<DeletedProcessMaterials NAME="DeletedProcessMaterials" TYPE="Unknown" STATUS="0">
+</DeletedProcessMaterials>
+<AddedProcessMaterials NAME="AddedProcessMaterials" TYPE="Unknown" STATUS="0">
+</AddedProcessMaterials>
+<ChangedProcessMaterials NAME="ChangedProcessMaterials" TYPE="Unknown" STATUS="0">
+</ChangedProcessMaterials>
+<UnchangedProcessMaterials NAME="UnchangedProcessMaterials" TYPE="Unknown" STATUS="0">
+</UnchangedProcessMaterials>
+<DeletedToolings NAME="DeletedToolings" TYPE="Unknown" STATUS="0">
+</DeletedToolings>
+<AddedToolings NAME="AddedToolings" TYPE="Unknown" STATUS="0">
+</AddedToolings>
+<ChangedToolings NAME="ChangedToolings" TYPE="Unknown" STATUS="0">
+</ChangedToolings>
+<UnchangedToolings NAME="UnchangedToolings" TYPE="Unknown" STATUS="0">
+</UnchangedToolings>
+<DeletedProcessPlans NAME="DeletedProcessPlans" TYPE="Unknown" STATUS="0">
+</DeletedProcessPlans>
+<AddedProcessPlans NAME="AddedProcessPlans" TYPE="Unknown" STATUS="0">
+</AddedProcessPlans>
+<ChangedProcessPlans NAME="ChangedProcessPlans" TYPE="Unknown" STATUS="0">
+</ChangedProcessPlans>
+<UnchangedProcessPlans NAME="UnchangedProcessPlans" TYPE="Unknown" STATUS="0">
+</UnchangedProcessPlans>
+<DeletedOperations NAME="DeletedOperations" TYPE="Unknown" STATUS="0">
+</DeletedOperations>
+<AddedOperations NAME="AddedOperations" TYPE="Unknown" STATUS="0">
+</AddedOperations>
+<ChangedOperations NAME="ChangedOperations" TYPE="Unknown" STATUS="0">
+</ChangedOperations>
+<UnchangedOperations NAME="UnchangedOperations" TYPE="Unknown" STATUS="0">
+</UnchangedOperations>
+<DeletedOperationUsageLinks NAME="DeletedOperationUsageLinks" TYPE="Unknown" STATUS="0">
+</DeletedOperationUsageLinks>
+<AddedOperationUsageLinks NAME="AddedOperationUsageLinks" TYPE="Unknown" STATUS="0">
+</AddedOperationUsageLinks>
+<ChangedOperationUsageLinks NAME="ChangedOperationUsageLinks" TYPE="Unknown" STATUS="0">
+</ChangedOperationUsageLinks>
+<UnchangedOperationUsageLinks NAME="UnchangedOperationUsageLinks" TYPE="Unknown" STATUS="0">
+</UnchangedOperationUsageLinks>
+<DeletedProcessPlanPartLinks NAME="DeletedProcessPlanPartLinks" TYPE="Unknown" STATUS="0">
+</DeletedProcessPlanPartLinks>
+<AddedProcessPlanPartLinks NAME="AddedProcessPlanPartLinks" TYPE="Unknown" STATUS="0">
+</AddedProcessPlanPartLinks>
+<ChangedProcessPlanPartLinks NAME="ChangedProcessPlanPartLinks" TYPE="Unknown" STATUS="0">
+</ChangedProcessPlanPartLinks>
+<UnchangedProcessPlanPartLinks NAME="UnchangedProcessPlanPartLinks" TYPE="Unknown" STATUS="0">
+</UnchangedProcessPlanPartLinks>
+<DeletedSequences NAME="DeletedSequences" TYPE="Unknown" STATUS="0">
+</DeletedSequences>
+<AddedSequences NAME="AddedSequences" TYPE="Unknown" STATUS="0">
+</AddedSequences>
+<ChangedSequences NAME="ChangedSequences" TYPE="Unknown" STATUS="0">
+</ChangedSequences>
+<UnchangedSequences NAME="UnchangedSequences" TYPE="Unknown" STATUS="0">
+</UnchangedSequences>
+<DeletedOprConsumableResourceLinks NAME="DeletedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0">
+</DeletedOprConsumableResourceLinks>
+<AddedOprConsumableResourceLinks NAME="AddedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0">
+</AddedOprConsumableResourceLinks>
+<ChangedOprConsumableResourceLinks NAME="ChangedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0">
+</ChangedOprConsumableResourceLinks>
+<UnchangedOprConsumableResourceLinks NAME="UnchangedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0">
+</UnchangedOprConsumableResourceLinks>
+<DeletedOprWorkCenterLinks NAME="DeletedOprWorkCenterLinks" TYPE="Unknown" STATUS="0">
+</DeletedOprWorkCenterLinks>
+<AddedOprWorkCenterLinks NAME="AddedOprWorkCenterLinks" TYPE="Unknown" STATUS="0">
+</AddedOprWorkCenterLinks>
+<ChangedOprWorkCenterLinks NAME="ChangedOprWorkCenterLinks" TYPE="Unknown" STATUS="0">
+</ChangedOprWorkCenterLinks>
+<UnchangedOprWorkCenterLinks NAME="UnchangedOprWorkCenterLinks" TYPE="Unknown" STATUS="0">
+</UnchangedOprWorkCenterLinks>
+<DeletedOprBomAllocatedParts NAME="DeletedOprBomAllocatedParts" TYPE="Unknown" STATUS="0">
+</DeletedOprBomAllocatedParts>
+<AddedOprBomAllocatedParts NAME="AddedOprBomAllocatedParts" TYPE="Unknown" STATUS="0">
+</AddedOprBomAllocatedParts>
+<ChangedOprBomAllocatedParts NAME="ChangedOprBomAllocatedParts" TYPE="Unknown" STATUS="0">
+</ChangedOprBomAllocatedParts>
+<UnchangedOprBomAllocatedParts NAME="UnchangedOprBomAllocatedParts" TYPE="Unknown" STATUS="0">
+</UnchangedOprBomAllocatedParts>
+<DeletedOprOperatedOnParts NAME="DeletedOprOperatedOnParts" TYPE="Unknown" STATUS="0">
+</DeletedOprOperatedOnParts>
+<AddedOprOperatedOnParts NAME="AddedOprOperatedOnParts" TYPE="Unknown" STATUS="0">
+</AddedOprOperatedOnParts>
+<ChangedOprOperatedOnParts NAME="ChangedOprOperatedOnParts" TYPE="Unknown" STATUS="0">
+</ChangedOprOperatedOnParts>
+<UnchangedOprOperatedOnParts NAME="UnchangedOprOperatedOnParts" TYPE="Unknown" STATUS="0">
+</UnchangedOprOperatedOnParts>
+<DeletedStandardProcedureLinks NAME="DeletedStandardProcedureLinks" TYPE="Unknown" STATUS="0">
+</DeletedStandardProcedureLinks>
+<AddedStandardProcedureLinks NAME="AddedStandardProcedureLinks" TYPE="Unknown" STATUS="0">
+</AddedStandardProcedureLinks>
+<ChangedStandardProcedureLinks NAME="ChangedStandardProcedureLinks" TYPE="Unknown" STATUS="0">
+</ChangedStandardProcedureLinks>
+<UnchangedStandardProcedureLinks NAME="UnchangedStandardProcedureLinks" TYPE="Unknown" STATUS="0">
+</UnchangedStandardProcedureLinks>
+<DeletedSkills NAME="DeletedSkills" TYPE="Unknown" STATUS="0">
+</DeletedSkills>
+<AddedSkills NAME="AddedSkills" TYPE="Unknown" STATUS="0">
+</AddedSkills>
+<ChangedSkills NAME="ChangedSkills" TYPE="Unknown" STATUS="0">
+</ChangedSkills>
+<UnchangedSkills NAME="UnchangedSkills" TYPE="Unknown" STATUS="0">
+</UnchangedSkills>
+<DeletedPlants NAME="DeletedPlants" TYPE="Unknown" STATUS="0">
+</DeletedPlants>
+<AddedPlants NAME="AddedPlants" TYPE="Unknown" STATUS="0">
+</AddedPlants>
+<ChangedPlants NAME="ChangedPlants" TYPE="Unknown" STATUS="0">
+</ChangedPlants>
+<UnchangedPlants NAME="UnchangedPlants" TYPE="Unknown" STATUS="0">
+</UnchangedPlants>
+<DeletedResourceGroups NAME="DeletedResourceGroups" TYPE="Unknown" STATUS="0">
+</DeletedResourceGroups>
+<AddedResourceGroups NAME="AddedResourceGroups" TYPE="Unknown" STATUS="0">
+</AddedResourceGroups>
+<ChangedResourceGroups NAME="ChangedResourceGroups" TYPE="Unknown" STATUS="0">
+</ChangedResourceGroups>
+<UnchangedResourceGroups NAME="UnchangedResourceGroups" TYPE="Unknown" STATUS="0">
+</UnchangedResourceGroups>
+<DeletedWorkCenters NAME="DeletedWorkCenters" TYPE="Unknown" STATUS="0">
+</DeletedWorkCenters>
+<AddedWorkCenters NAME="AddedWorkCenters" TYPE="Unknown" STATUS="0">
+</AddedWorkCenters>
+<ChangedWorkCenters NAME="ChangedWorkCenters" TYPE="Unknown" STATUS="0">
+</ChangedWorkCenters>
+<UnchangedWorkCenters NAME="UnchangedWorkCenters" TYPE="Unknown" STATUS="0">
+</UnchangedWorkCenters>
+<DeletedPlantAssignmentLinks NAME="DeletedPlantAssignmentLinks" TYPE="Unknown" STATUS="0">
+</DeletedPlantAssignmentLinks>
+<AddedPlantAssignmentLinks NAME="AddedPlantAssignmentLinks" TYPE="Unknown" STATUS="0">
+</AddedPlantAssignmentLinks>
+<ChangedPlantAssignmentLinks NAME="ChangedPlantAssignmentLinks" TYPE="Unknown" STATUS="0">
+</ChangedPlantAssignmentLinks>
+<UnchangedPlantAssignmentLinks NAME="UnchangedPlantAssignmentLinks" TYPE="Unknown" STATUS="0">
+</UnchangedPlantAssignmentLinks>
+<DeletedResourceUsageLinks NAME="DeletedResourceUsageLinks" TYPE="Unknown" STATUS="0">
+</DeletedResourceUsageLinks>
+<AddedResourceUsageLinks NAME="AddedResourceUsageLinks" TYPE="Unknown" STATUS="0">
+</AddedResourceUsageLinks>
+<ChangedResourceUsageLinks NAME="ChangedResourceUsageLinks" TYPE="Unknown" STATUS="0">
+</ChangedResourceUsageLinks>
+<UnchangedResourceUsageLinks NAME="UnchangedResourceUsageLinks" TYPE="Unknown" STATUS="0">
+</UnchangedResourceUsageLinks>
+<CurrentAUMs NAME="CurrentAUMs" TYPE="Unknown" STATUS="0">
+</CurrentAUMs>
+<AddedEPMRepresentations NAME="AddedEPMRepresentations" TYPE="Unknown" STATUS="0">
+</AddedEPMRepresentations>
+<DeletedControlCharacteristics NAME="DeletedControlCharacteristics" TYPE="Unknown" STATUS="0">
+</DeletedControlCharacteristics>
+<AddedControlCharacteristics NAME="AddedControlCharacteristics" TYPE="Unknown" STATUS="0">
+</AddedControlCharacteristics>
+<ChangedControlCharacteristics NAME="ChangedControlCharacteristics" TYPE="Unknown" STATUS="0">
+</ChangedControlCharacteristics>
+<UnchangedControlCharacteristics NAME="UnchangedControlCharacteristics" TYPE="Unknown" STATUS="0">
+</UnchangedControlCharacteristics>
+<ModelItems NAME="ModelItems" TYPE="Unknown" STATUS="0">
+</ModelItems>
+<DeletedQualityLinks NAME="DeletedQualityLinks" TYPE="Unknown" STATUS="0">
+</DeletedQualityLinks>
+<AddedQualityLinks NAME="AddedQualityLinks" TYPE="Unknown" STATUS="0">
+</AddedQualityLinks>
+<ChangedQualityLinks NAME="ChangedQualityLinks" TYPE="Unknown" STATUS="0">
+</ChangedQualityLinks>
+<UnchangedQualityLinks NAME="UnchangedQualityLinks" TYPE="Unknown" STATUS="0">
+</UnchangedQualityLinks>
+<DeletedOptionSets NAME="DeletedOptionSets" TYPE="Unknown" STATUS="0">
+</DeletedOptionSets>
+<AddedOptionSets NAME="AddedOptionSets" TYPE="Unknown" STATUS="0">
+</AddedOptionSets>
+<ChangedOptionSets NAME="ChangedOptionSets" TYPE="Unknown" STATUS="0">
+</ChangedOptionSets>
+<UnchangedOptionSets NAME="UnchangedOptionSets" TYPE="Unknown" STATUS="0">
+</UnchangedOptionSets>
+<DeletedOptions NAME="DeletedOptions" TYPE="Unknown" STATUS="0">
+</DeletedOptions>
+<AddedOptions NAME="AddedOptions" TYPE="Unknown" STATUS="0">
+</AddedOptions>
+<ChangedOptions NAME="ChangedOptions" TYPE="Unknown" STATUS="0">
+</ChangedOptions>
+<UnchangedOptions NAME="UnchangedOptions" TYPE="Unknown" STATUS="0">
+</UnchangedOptions>
+<DeletedChoices NAME="DeletedChoices" TYPE="Unknown" STATUS="0">
+</DeletedChoices>
+<AddedChoices NAME="AddedChoices" TYPE="Unknown" STATUS="0">
+</AddedChoices>
+<ChangedChoices NAME="ChangedChoices" TYPE="Unknown" STATUS="0">
+</ChangedChoices>
+<UnchangedChoices NAME="UnchangedChoices" TYPE="Unknown" STATUS="0">
+</UnchangedChoices>
+<DeletedOptionSetOptionLinks NAME="DeletedOptionSetOptionLinks" TYPE="Unknown" STATUS="0">
+</DeletedOptionSetOptionLinks>
+<AddedOptionSetOptionLinks NAME="AddedOptionSetOptionLinks" TYPE="Unknown" STATUS="0">
+</AddedOptionSetOptionLinks>
+<DeletedOptionSetMemberLinks NAME="DeletedOptionSetMemberLinks" TYPE="Unknown" STATUS="0">
+</DeletedOptionSetMemberLinks>
+<AddedOptionSetMemberLinks NAME="AddedOptionSetMemberLinks" TYPE="Unknown" STATUS="0">
+</AddedOptionSetMemberLinks>
+<ChangedOptionSetMemberLinks NAME="ChangedOptionSetMemberLinks" TYPE="Unknown" STATUS="0">
+</ChangedOptionSetMemberLinks>
+<UnchangedOptionSetMemberLinks NAME="UnchangedOptionSetMemberLinks" TYPE="Unknown" STATUS="0">
+</UnchangedOptionSetMemberLinks>
+<DeletedAssociatedOptionSetLinks NAME="DeletedAssociatedOptionSetLinks" TYPE="Unknown" STATUS="0">
+</DeletedAssociatedOptionSetLinks>
+<AddedAssociatedOptionSetLinks NAME="AddedAssociatedOptionSetLinks" TYPE="Unknown" STATUS="0">
+</AddedAssociatedOptionSetLinks>
+<DeletedChoiceMappableChoiceLinks NAME="DeletedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0">
+</DeletedChoiceMappableChoiceLinks>
+<AddedChoiceMappableChoiceLinks NAME="AddedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0">
+</AddedChoiceMappableChoiceLinks>
+<ChangedChoiceMappableChoiceLinks NAME="ChangedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0">
+</ChangedChoiceMappableChoiceLinks>
+<UnchangedChoiceMappableChoiceLinks NAME="UnchangedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0">
+</UnchangedChoiceMappableChoiceLinks>
+<DeletedOptionSetRuleLinks NAME="DeletedOptionSetRuleLinks" TYPE="Unknown" STATUS="0">
+</DeletedOptionSetRuleLinks>
+<AddedOptionSetRuleLinks NAME="AddedOptionSetRuleLinks" TYPE="Unknown" STATUS="0">
+</AddedOptionSetRuleLinks>
+<ChangedOptionSetRuleLinks NAME="ChangedOptionSetRuleLinks" TYPE="Unknown" STATUS="0">
+</ChangedOptionSetRuleLinks>
+<UnchangedOptionSetRuleLinks NAME="UnchangedOptionSetRuleLinks" TYPE="Unknown" STATUS="0">
+</UnchangedOptionSetRuleLinks>
+<DeletedRules NAME="DeletedRules" TYPE="Unknown" STATUS="0">
+</DeletedRules>
+<AddedRules NAME="AddedRules" TYPE="Unknown" STATUS="0">
+</AddedRules>
+<ChangedRules NAME="ChangedRules" TYPE="Unknown" STATUS="0">
+</ChangedRules>
+<UnchangedRules NAME="UnchangedRules" TYPE="Unknown" STATUS="0">
+</UnchangedRules>
+<DeletedRuleMemberLinks NAME="DeletedRuleMemberLinks" TYPE="Unknown" STATUS="0">
+</DeletedRuleMemberLinks>
+<AddedRuleMemberLinks NAME="AddedRuleMemberLinks" TYPE="Unknown" STATUS="0">
+</AddedRuleMemberLinks>
+<ChangedRuleMemberLinks NAME="ChangedRuleMemberLinks" TYPE="Unknown" STATUS="0">
+</ChangedRuleMemberLinks>
+<UnchangedRuleMemberLinks NAME="UnchangedRuleMemberLinks" TYPE="Unknown" STATUS="0">
+</UnchangedRuleMemberLinks>
+<DeletedRuleMemberActionLinks NAME="DeletedRuleMemberActionLinks" TYPE="Unknown" STATUS="0">
+</DeletedRuleMemberActionLinks>
+<AddedRuleMemberActionLinks NAME="AddedRuleMemberActionLinks" TYPE="Unknown" STATUS="0">
+</AddedRuleMemberActionLinks>
+<ChangedRuleMemberActionLinks NAME="ChangedRuleMemberActionLinks" TYPE="Unknown" STATUS="0">
+</ChangedRuleMemberActionLinks>
+<UnchangedRuleMemberActionLinks NAME="UnchangedRuleMemberActionLinks" TYPE="Unknown" STATUS="0">
+</UnchangedRuleMemberActionLinks>
+<DeletedPlantLocalizationLinks NAME="DeletedPlantLocalizationLinks" TYPE="Unknown" STATUS="0">
+</DeletedPlantLocalizationLinks>
+<AddedPlantLocalizationLinks NAME="AddedPlantLocalizationLinks" TYPE="Unknown" STATUS="0">
+</AddedPlantLocalizationLinks>
+<ChangedPlantLocalizationLinks NAME="ChangedPlantLocalizationLinks" TYPE="Unknown" STATUS="0">
+</ChangedPlantLocalizationLinks>
+<UnchangedPlantLocalizationLinks NAME="UnchangedPlantLocalizationLinks" TYPE="Unknown" STATUS="0">
+</UnchangedPlantLocalizationLinks>
+<DeletedProcessPlanLocalizationLinks NAME="DeletedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0">
+</DeletedProcessPlanLocalizationLinks>
+<AddedProcessPlanLocalizationLinks NAME="AddedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0">
+</AddedProcessPlanLocalizationLinks>
+<ChangedProcessPlanLocalizationLinks NAME="ChangedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0">
+</ChangedProcessPlanLocalizationLinks>
+<UnchangedProcessPlanLocalizationLinks NAME="UnchangedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0">
+</UnchangedProcessPlanLocalizationLinks>
+</COLLECTION>

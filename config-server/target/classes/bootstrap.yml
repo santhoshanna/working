@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-server
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+  file: C:/Apigee/work/logs/config-server.log

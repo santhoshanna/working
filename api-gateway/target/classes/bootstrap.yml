@@ -1,0 +1,165 @@
+server:
+  port: 8765
+  
+spring:
+  profiles:
+    active: development-cloud
+---
+spring:
+  profiles: development-cloud 
+  application:
+    name: api-gateway    
+ # cloud:
+ #   config:
+ #     uri: http://localhost:8888
+#compression:
+#    enabled: true
+#    min-response-size: 1024
+#    mime-types: application/xml,application/json
+zuul:
+  routes:
+    plm-subscriber-ms: /api/subscriber/**
+    plm-payload-process-ms: /api/payloadprocess/**
+    plm-part-bom-ms: /api/part-bom/**
+    plm-webportal-ms: /api/webportal/**
+
+  host:
+    connect-timeout-millis: 1000000
+    socket-timeout-millis: 6000000
+hystrix:
+  command.default.execution.isolation.strategy: THREAD
+  command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+  command.default.execution.timeout.enabled: false
+  command.default.fallback.enabled: false
+  threadpool.default.coreSize: 20
+plm-subscriber-ms:
+  ribbon:
+    ReadTimeout: 600000
+    ConnectTimeout: 600000
+    
+plm-payloadprocess-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000
+    
+plm-part-bom-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000   
+    
+plm-webportal-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000   
+         
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5    
+---
+spring:
+  profiles: qa-cloud 
+  application:
+    name: api-gateway    
+  cloud:
+    config:
+      uri: http://localhost:8888
+#compression:
+#    enabled: true
+#    min-response-size: 1024
+#    mime-types: application/xml,application/json
+zuul:
+  routes:
+    plm-subscriber-ms: /api/subscriber/**
+    plm-payload-process-ms: /api/payloadprocess/**
+    plm-part-bom-ms: /api/part-bom/**
+    plm-webportal-ms: /api/webportal/**
+
+  host:
+    connect-timeout-millis: 1000000
+    socket-timeout-millis: 6000000
+hystrix:
+  command.default.execution.isolation.strategy: THREAD
+  command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+  command.default.execution.timeout.enabled: false
+  command.default.fallback.enabled: false
+  threadpool.default.coreSize: 20
+plm-subscriber-ms:
+  ribbon:
+    ReadTimeout: 600000
+    ConnectTimeout: 600000
+    
+plm-payloadprocess-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000
+
+plm-part-bom-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000   
+    
+plm-webportal-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000   
+        
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5    
+---
+spring:
+  profiles: production-cloud 
+  application:
+    name: api-gateway    
+  cloud:
+    config:
+      uri: http://localhost:8888
+#compression:
+#    enabled: true
+#    min-response-size: 1024
+#    mime-types: application/xml,application/json
+zuul:
+  routes:
+    plm-subscriber-ms: /api/subscriber/**
+    plm-payload-process-ms: /api/payloadprocess/**
+    plm-part-bom-ms: /api/part-bom/**
+    plm-webportal-ms: /api/webportal/**
+
+  host:
+    connect-timeout-millis: 1000000
+    socket-timeout-millis: 6000000
+hystrix:
+  command.default.execution.isolation.strategy: THREAD
+  command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+  command.default.execution.timeout.enabled: false
+  command.default.fallback.enabled: false
+  threadpool.default.coreSize: 20
+plm-subscriber-ms:
+  ribbon:
+    ReadTimeout: 600000
+    ConnectTimeout: 600000
+    
+plm-payloadprocess-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000
+    
+plm-part-bom-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000   
+    
+plm-webportal-ms:
+  ribbon:
+    ReadTimeout: 600000  
+    ConnectTimeout: 600000   
+        
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5              

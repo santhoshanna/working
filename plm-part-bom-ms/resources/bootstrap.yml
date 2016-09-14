@@ -1,0 +1,85 @@
+server:
+  port: 8002
+  
+spring:
+  profiles:
+    active: development-cloud
+---
+spring:
+  profiles: development-cloud 
+  application:
+    name: plm-part-bom-ms
+    
+eureka:
+  client:
+    register-with-eureka: true
+    eureka-service-url-poll-interval-seconds: 5000
+    enabled: true
+    proxy-user-name: cups
+    fetch-registry: true
+  instance:
+    prefer-ip-address: false
+  #  non-secure-port: 80
+    
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+  file: logs/plm-part-bom-ms.log
+
+#  cloud:
+    #config:
+     # uri: http://localhost:8888  
+---
+spring:
+  profiles: qa-cloud 
+  application:
+    name: plm-part-bom-ms
+    
+eureka:
+  client:
+    register-with-eureka: true
+    eureka-service-url-poll-interval-seconds: 500000
+    enabled: true
+    proxy-user-name: cups
+    fetch-registry: true
+  instance:
+    prefer-ip-address: false
+  #  non-secure-port: 80
+    
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+  file: logs/plm-part-bom-ms.log
+
+#  cloud:
+    #config:
+     # uri: http://localhost:8888  
+---
+spring:
+  profiles: production-cloud 
+  application:
+    name: plm-part-bom-ms
+    
+eureka:
+  client:
+    register-with-eureka: true
+    eureka-service-url-poll-interval-seconds: 500000
+    enabled: true
+    proxy-user-name: cups
+    fetch-registry: true
+  instance:
+    prefer-ip-address: false
+    non-secure-port: 80
+    
+logging:
+  level:
+    org.springframework.security: INFO
+    org.springframework.web: INFO
+  file: logs/plm-part-bom-ms.log
+
+#  cloud:
+    #config:
+     # uri: http://localhost:8888       
+      

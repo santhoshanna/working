@@ -1,0 +1,9 @@
+{"mapping":
+			[
+			{"erp": "SYMIX","plant": "RY1","region": "NA"}, 
+			{"erp": "SYMIX","plant": "RY2","region": "NA"}, 
+			{"erp": "SYMIX","plant": "ERL","region": "NA"}, 
+			{"erp": "SYMIX","plant": "JUA","region": "NA"}, 
+			{"erp": "SAP","plant": "EXM","region": "ASIA"}
+			]
+}

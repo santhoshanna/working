@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?><COLLECTION>
+<Release NAME="Release" TYPE="Unknown" STATUS="0">
+<Transaction>
+<TransactionNumber>57</TransactionNumber>
+<ReleaseNumber>55</ReleaseNumber>
+<PrimaryObjectID>OR:wt.change2.WTChangeOrder2:142293:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</PrimaryObjectID>
+<CreatedBy>beOrgAdmin</CreatedBy>
+<CreatedDate>2016-09-13 11:46:22 EDT</CreatedDate>
+<Locale>en_US</Locale>
+<Destination>JUA</Destination>
+</Transaction>
+</Release>
+<DeletedECN NAME="DeletedECN" TYPE="Unknown" STATUS="0"/>
+<AddedECN NAME="AddedECN" TYPE="Unknown" STATUS="0">
+<ECNHeader>
+<ObjectID>OR:wt.change2.WTChangeOrder2:142293:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.ChangeHeader</Class>
+<LastChangedBy/>
+<Number>FCN00091</Number>
+<Name>IntegriationTest5</Name>
+<Description/>
+<Type>Factory Change Notice</Type>
+<ResolutionDate/>
+<CreatedBy>beOrgAdmin</CreatedBy>
+<CreatedOn>2016-09-13 11:45:54 EDT</CreatedOn>
+<TargetID>JUA</TargetID>
+</ECNHeader>
+</AddedECN>
+<ChangedECN NAME="ChangedECN" TYPE="Unknown" STATUS="0"/>
+<UnchangedECN NAME="UnchangedECN" TYPE="Unknown" STATUS="0"/>
+<DeletedParts NAME="DeletedParts" TYPE="Unknown" STATUS="0"/>
+<DeletedAlternateLinks NAME="DeletedAlternateLinks" TYPE="Unknown" STATUS="0"/>
+<AddedAlternateLinks NAME="AddedAlternateLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedDocuments NAME="DeletedDocuments" TYPE="Unknown" STATUS="0"/>
+<AddedDocuments NAME="AddedDocuments" TYPE="Unknown" STATUS="0"/>
+<ChangedDocuments NAME="ChangedDocuments" TYPE="Unknown" STATUS="0"/>
+<UnchangedDocuments NAME="UnchangedDocuments" TYPE="Unknown" STATUS="0"/>
+<DeletedDocumentLinks NAME="DeletedDocumentLinks" TYPE="Unknown" STATUS="0"/>
+<AddedDocumentLinks NAME="AddedDocumentLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedDocumentLinks NAME="ChangedDocumentLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedDocumentLinks NAME="UnchangedDocumentLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedBOMs NAME="DeletedBOMs" TYPE="Unknown" STATUS="0"/>
+<AddedBOMs NAME="AddedBOMs" TYPE="Unknown" STATUS="0"/>
+<ChangedBOMs NAME="ChangedBOMs" TYPE="Unknown" STATUS="0">
+<BOMHeader>
+<ObjectID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMHeader</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<END-ITEM>BOMAATEST</END-ITEM>
+<StartEffectivity>2016-09-19 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<Version>E</Version>
+<Iteration>2</Iteration>
+<PreviousVersion>D</PreviousVersion>
+<Usage/>
+<Alternate/>
+<IsCADPhantom>false</IsCADPhantom>
+<IsCollapsible>false</IsCollapsible>
+<TargetID>JUA</TargetID>
+</BOMHeader>
+</ChangedBOMs>
+<UnchangedBOMs NAME="UnchangedBOMs" TYPE="Unknown" STATUS="0"/>
+<UnchangedBOMComponents NAME="UnchangedBOMComponents" TYPE="Unknown" STATUS="0">
+<BOMComponent>
+<ObjectID>OR:wt.part.WTPartUsageLink:142200:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMComponent</Class>
+<PartNumber>BOMAATEST2</PartNumber>
+<AssemblyPartNumber>BOMAATEST</AssemblyPartNumber>
+<AssemblyPartID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+<Quantity>2</Quantity>
+<Unit>each</Unit>
+<SEQ>20</SEQ>
+<FindNumber/>
+<AlternateItemGroup/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<ComponentId>3d54aea3-6508-4096-805c-41f05f8c9216</ComponentId>
+<IsChildPhantom>false</IsChildPhantom>
+<IsPartConfigurable>false</IsPartConfigurable>
+<IsPartCollapsible>false</IsPartCollapsible>
+<ItemCategory/>
+<SortString/>
+<TargetID>JUA</TargetID>
+</BOMComponent>
+<BOMComponent>
+<ObjectID>OR:wt.part.WTPartUsageLink:142199:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMComponent</Class>
+<PartNumber>BOMAATEST5</PartNumber>
+<AssemblyPartNumber>BOMAATEST</AssemblyPartNumber>
+<AssemblyPartID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+<Quantity>1</Quantity>
+<Unit>each</Unit>
+<SEQ>50</SEQ>
+<FindNumber/>
+<AlternateItemGroup/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<ComponentId>def9af2b-c37c-481c-925d-44748e429c91</ComponentId>
+<IsChildPhantom>false</IsChildPhantom>
+<IsPartConfigurable>false</IsPartConfigurable>
+<IsPartCollapsible>false</IsPartCollapsible>
+<ItemCategory/>
+<SortString/>
+<TargetID>JUA</TargetID>
+</BOMComponent>
+<BOMComponent>
+<ObjectID>OR:wt.part.WTPartUsageLink:142202:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMComponent</Class>
+<PartNumber>BOMWITHANOTHERDT</PartNumber>
+<AssemblyPartNumber>BOMAATEST</AssemblyPartNumber>
+<AssemblyPartID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+<Quantity>1</Quantity>
+<Unit>each</Unit>
+<SEQ>15</SEQ>
+<FindNumber/>
+<AlternateItemGroup/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<ComponentId>64f5634d-78da-4202-8e37-87947b0d2446</ComponentId>
+<IsChildPhantom>false</IsChildPhantom>
+<IsPartConfigurable>false</IsPartConfigurable>
+<IsPartCollapsible>false</IsPartCollapsible>
+<ItemCategory/>
+<SortString/>
+<TargetID>JUA</TargetID>
+</BOMComponent>
+</UnchangedBOMComponents>
+<DeletedSubstitutes NAME="DeletedSubstitutes" TYPE="Unknown" STATUS="0"/>
+<AddedSubstitutes NAME="AddedSubstitutes" TYPE="Unknown" STATUS="0"/>
+<DeletedReferenceDesignators NAME="DeletedReferenceDesignators" TYPE="Unknown" STATUS="0"/>
+<AddedReferenceDesignators NAME="AddedReferenceDesignators" TYPE="Unknown" STATUS="0"/>
+<DeletedProcessMaterials NAME="DeletedProcessMaterials" TYPE="Unknown" STATUS="0"/>
+<AddedProcessMaterials NAME="AddedProcessMaterials" TYPE="Unknown" STATUS="0"/>
+<ChangedProcessMaterials NAME="ChangedProcessMaterials" TYPE="Unknown" STATUS="0"/>
+<UnchangedProcessMaterials NAME="UnchangedProcessMaterials" TYPE="Unknown" STATUS="0"/>
+<DeletedToolings NAME="DeletedToolings" TYPE="Unknown" STATUS="0"/>
+<AddedToolings NAME="AddedToolings" TYPE="Unknown" STATUS="0"/>
+<ChangedToolings NAME="ChangedToolings" TYPE="Unknown" STATUS="0"/>
+<UnchangedToolings NAME="UnchangedToolings" TYPE="Unknown" STATUS="0"/>
+<DeletedProcessPlans NAME="DeletedProcessPlans" TYPE="Unknown" STATUS="0"/>
+<AddedProcessPlans NAME="AddedProcessPlans" TYPE="Unknown" STATUS="0"/>
+<ChangedProcessPlans NAME="ChangedProcessPlans" TYPE="Unknown" STATUS="0"/>
+<UnchangedProcessPlans NAME="UnchangedProcessPlans" TYPE="Unknown" STATUS="0"/>
+<DeletedOperations NAME="DeletedOperations" TYPE="Unknown" STATUS="0"/>
+<AddedOperations NAME="AddedOperations" TYPE="Unknown" STATUS="0"/>
+<ChangedOperations NAME="ChangedOperations" TYPE="Unknown" STATUS="0"/>
+<UnchangedOperations NAME="UnchangedOperations" TYPE="Unknown" STATUS="0"/>
+<DeletedOperationUsageLinks NAME="DeletedOperationUsageLinks" TYPE="Unknown" STATUS="0"/>
+<AddedOperationUsageLinks NAME="AddedOperationUsageLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedOperationUsageLinks NAME="ChangedOperationUsageLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedOperationUsageLinks NAME="UnchangedOperationUsageLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedProcessPlanPartLinks NAME="DeletedProcessPlanPartLinks" TYPE="Unknown" STATUS="0"/>
+<AddedProcessPlanPartLinks NAME="AddedProcessPlanPartLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedProcessPlanPartLinks NAME="ChangedProcessPlanPartLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedProcessPlanPartLinks NAME="UnchangedProcessPlanPartLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedSequences NAME="DeletedSequences" TYPE="Unknown" STATUS="0"/>
+<AddedSequences NAME="AddedSequences" TYPE="Unknown" STATUS="0"/>
+<ChangedSequences NAME="ChangedSequences" TYPE="Unknown" STATUS="0"/>
+<UnchangedSequences NAME="UnchangedSequences" TYPE="Unknown" STATUS="0"/>
+<DeletedOprConsumableResourceLinks NAME="DeletedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0"/>
+<AddedOprConsumableResourceLinks NAME="AddedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedOprConsumableResourceLinks NAME="ChangedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedOprConsumableResourceLinks NAME="UnchangedOprConsumableResourceLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedOprWorkCenterLinks NAME="DeletedOprWorkCenterLinks" TYPE="Unknown" STATUS="0"/>
+<AddedOprWorkCenterLinks NAME="AddedOprWorkCenterLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedOprWorkCenterLinks NAME="ChangedOprWorkCenterLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedOprWorkCenterLinks NAME="UnchangedOprWorkCenterLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedOprBomAllocatedParts NAME="DeletedOprBomAllocatedParts" TYPE="Unknown" STATUS="0"/>
+<AddedOprBomAllocatedParts NAME="AddedOprBomAllocatedParts" TYPE="Unknown" STATUS="0"/>
+<ChangedOprBomAllocatedParts NAME="ChangedOprBomAllocatedParts" TYPE="Unknown" STATUS="0"/>
+<UnchangedOprBomAllocatedParts NAME="UnchangedOprBomAllocatedParts" TYPE="Unknown" STATUS="0"/>
+<DeletedOprOperatedOnParts NAME="DeletedOprOperatedOnParts" TYPE="Unknown" STATUS="0"/>
+<AddedOprOperatedOnParts NAME="AddedOprOperatedOnParts" TYPE="Unknown" STATUS="0"/>
+<ChangedOprOperatedOnParts NAME="ChangedOprOperatedOnParts" TYPE="Unknown" STATUS="0"/>
+<UnchangedOprOperatedOnParts NAME="UnchangedOprOperatedOnParts" TYPE="Unknown" STATUS="0"/>
+<DeletedStandardProcedureLinks NAME="DeletedStandardProcedureLinks" TYPE="Unknown" STATUS="0"/>
+<AddedStandardProcedureLinks NAME="AddedStandardProcedureLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedStandardProcedureLinks NAME="ChangedStandardProcedureLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedStandardProcedureLinks NAME="UnchangedStandardProcedureLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedSkills NAME="DeletedSkills" TYPE="Unknown" STATUS="0"/>
+<AddedSkills NAME="AddedSkills" TYPE="Unknown" STATUS="0"/>
+<ChangedSkills NAME="ChangedSkills" TYPE="Unknown" STATUS="0"/>
+<UnchangedSkills NAME="UnchangedSkills" TYPE="Unknown" STATUS="0"/>
+<DeletedPlants NAME="DeletedPlants" TYPE="Unknown" STATUS="0"/>
+<AddedPlants NAME="AddedPlants" TYPE="Unknown" STATUS="0"/>
+<ChangedPlants NAME="ChangedPlants" TYPE="Unknown" STATUS="0"/>
+<UnchangedPlants NAME="UnchangedPlants" TYPE="Unknown" STATUS="0"/>
+<DeletedResourceGroups NAME="DeletedResourceGroups" TYPE="Unknown" STATUS="0"/>
+<AddedResourceGroups NAME="AddedResourceGroups" TYPE="Unknown" STATUS="0"/>
+<ChangedResourceGroups NAME="ChangedResourceGroups" TYPE="Unknown" STATUS="0"/>
+<UnchangedResourceGroups NAME="UnchangedResourceGroups" TYPE="Unknown" STATUS="0"/>
+<DeletedWorkCenters NAME="DeletedWorkCenters" TYPE="Unknown" STATUS="0"/>
+<AddedWorkCenters NAME="AddedWorkCenters" TYPE="Unknown" STATUS="0"/>
+<ChangedWorkCenters NAME="ChangedWorkCenters" TYPE="Unknown" STATUS="0"/>
+<UnchangedWorkCenters NAME="UnchangedWorkCenters" TYPE="Unknown" STATUS="0"/>
+<DeletedPlantAssignmentLinks NAME="DeletedPlantAssignmentLinks" TYPE="Unknown" STATUS="0"/>
+<AddedPlantAssignmentLinks NAME="AddedPlantAssignmentLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedPlantAssignmentLinks NAME="ChangedPlantAssignmentLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedPlantAssignmentLinks NAME="UnchangedPlantAssignmentLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedResourceUsageLinks NAME="DeletedResourceUsageLinks" TYPE="Unknown" STATUS="0"/>
+<AddedResourceUsageLinks NAME="AddedResourceUsageLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedResourceUsageLinks NAME="ChangedResourceUsageLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedResourceUsageLinks NAME="UnchangedResourceUsageLinks" TYPE="Unknown" STATUS="0"/>
+<CurrentAUMs NAME="CurrentAUMs" TYPE="Unknown" STATUS="0"/>
+<AddedEPMRepresentations NAME="AddedEPMRepresentations" TYPE="Unknown" STATUS="0"/>
+<DeletedControlCharacteristics NAME="DeletedControlCharacteristics" TYPE="Unknown" STATUS="0"/>
+<AddedControlCharacteristics NAME="AddedControlCharacteristics" TYPE="Unknown" STATUS="0"/>
+<ChangedControlCharacteristics NAME="ChangedControlCharacteristics" TYPE="Unknown" STATUS="0"/>
+<UnchangedControlCharacteristics NAME="UnchangedControlCharacteristics" TYPE="Unknown" STATUS="0"/>
+<ModelItems NAME="ModelItems" TYPE="Unknown" STATUS="0"/>
+<DeletedQualityLinks NAME="DeletedQualityLinks" TYPE="Unknown" STATUS="0"/>
+<AddedQualityLinks NAME="AddedQualityLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedQualityLinks NAME="ChangedQualityLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedQualityLinks NAME="UnchangedQualityLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedOptionSets NAME="DeletedOptionSets" TYPE="Unknown" STATUS="0"/>
+<AddedOptionSets NAME="AddedOptionSets" TYPE="Unknown" STATUS="0"/>
+<ChangedOptionSets NAME="ChangedOptionSets" TYPE="Unknown" STATUS="0"/>
+<UnchangedOptionSets NAME="UnchangedOptionSets" TYPE="Unknown" STATUS="0"/>
+<DeletedOptions NAME="DeletedOptions" TYPE="Unknown" STATUS="0"/>
+<AddedOptions NAME="AddedOptions" TYPE="Unknown" STATUS="0"/>
+<ChangedOptions NAME="ChangedOptions" TYPE="Unknown" STATUS="0"/>
+<UnchangedOptions NAME="UnchangedOptions" TYPE="Unknown" STATUS="0"/>
+<DeletedChoices NAME="DeletedChoices" TYPE="Unknown" STATUS="0"/>
+<AddedChoices NAME="AddedChoices" TYPE="Unknown" STATUS="0"/>
+<ChangedChoices NAME="ChangedChoices" TYPE="Unknown" STATUS="0"/>
+<UnchangedChoices NAME="UnchangedChoices" TYPE="Unknown" STATUS="0"/>
+<DeletedOptionSetOptionLinks NAME="DeletedOptionSetOptionLinks" TYPE="Unknown" STATUS="0"/>
+<AddedOptionSetOptionLinks NAME="AddedOptionSetOptionLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedOptionSetMemberLinks NAME="DeletedOptionSetMemberLinks" TYPE="Unknown" STATUS="0"/>
+<AddedOptionSetMemberLinks NAME="AddedOptionSetMemberLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedOptionSetMemberLinks NAME="ChangedOptionSetMemberLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedOptionSetMemberLinks NAME="UnchangedOptionSetMemberLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedAssociatedOptionSetLinks NAME="DeletedAssociatedOptionSetLinks" TYPE="Unknown" STATUS="0"/>
+<AddedAssociatedOptionSetLinks NAME="AddedAssociatedOptionSetLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedChoiceMappableChoiceLinks NAME="DeletedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0"/>
+<AddedChoiceMappableChoiceLinks NAME="AddedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedChoiceMappableChoiceLinks NAME="ChangedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedChoiceMappableChoiceLinks NAME="UnchangedChoiceMappableChoiceLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedOptionSetRuleLinks NAME="DeletedOptionSetRuleLinks" TYPE="Unknown" STATUS="0"/>
+<AddedOptionSetRuleLinks NAME="AddedOptionSetRuleLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedOptionSetRuleLinks NAME="ChangedOptionSetRuleLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedOptionSetRuleLinks NAME="UnchangedOptionSetRuleLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedRules NAME="DeletedRules" TYPE="Unknown" STATUS="0"/>
+<AddedRules NAME="AddedRules" TYPE="Unknown" STATUS="0"/>
+<ChangedRules NAME="ChangedRules" TYPE="Unknown" STATUS="0"/>
+<UnchangedRules NAME="UnchangedRules" TYPE="Unknown" STATUS="0"/>
+<DeletedRuleMemberLinks NAME="DeletedRuleMemberLinks" TYPE="Unknown" STATUS="0"/>
+<AddedRuleMemberLinks NAME="AddedRuleMemberLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedRuleMemberLinks NAME="ChangedRuleMemberLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedRuleMemberLinks NAME="UnchangedRuleMemberLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedRuleMemberActionLinks NAME="DeletedRuleMemberActionLinks" TYPE="Unknown" STATUS="0"/>
+<AddedRuleMemberActionLinks NAME="AddedRuleMemberActionLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedRuleMemberActionLinks NAME="ChangedRuleMemberActionLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedRuleMemberActionLinks NAME="UnchangedRuleMemberActionLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedPlantLocalizationLinks NAME="DeletedPlantLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<AddedPlantLocalizationLinks NAME="AddedPlantLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedPlantLocalizationLinks NAME="ChangedPlantLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedPlantLocalizationLinks NAME="UnchangedPlantLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<DeletedProcessPlanLocalizationLinks NAME="DeletedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<AddedProcessPlanLocalizationLinks NAME="AddedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<ChangedProcessPlanLocalizationLinks NAME="ChangedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<UnchangedProcessPlanLocalizationLinks NAME="UnchangedProcessPlanLocalizationLinks" TYPE="Unknown" STATUS="0"/>
+<BOMCOMPONENTS-BOMCOMPONENTS>
+<BOMComponent>
+<ACTION>D</ACTION>
+<BOMComponent>
+<ObjectID>OR:wt.part.WTPartUsageLink:141624:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMComponent</Class>
+<PartNumber>BOMAATEST3</PartNumber>
+<AssemblyPartNumber>BOMAATEST</AssemblyPartNumber>
+<AssemblyPartID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+<Quantity>3</Quantity>
+<Unit>each</Unit>
+<SEQ>30</SEQ>
+<FindNumber/>
+<AlternateItemGroup/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<ComponentId>ce58fd28-d3aa-4378-bf41-9d9b41ffea1b</ComponentId>
+<IsChildPhantom>false</IsChildPhantom>
+<IsPartConfigurable>false</IsPartConfigurable>
+<IsPartCollapsible>false</IsPartCollapsible>
+<ItemCategory/>
+<SortString/>
+<TargetID>JUA</TargetID>
+</BOMComponent>
+</BOMComponent>
+<BOMComponent>
+<ACTION>A</ACTION>
+<BOMComponent>
+<ObjectID>OR:wt.part.WTPartUsageLink:142243:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMComponent</Class>
+<PartNumber>BOMAATEST6</PartNumber>
+<AssemblyPartNumber>BOMAATEST</AssemblyPartNumber>
+<AssemblyPartID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+<Quantity>1</Quantity>
+<Unit>each</Unit>
+<SEQ>60</SEQ>
+<FindNumber/>
+<AlternateItemGroup/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<ComponentId>905a5835-a308-440e-8e15-0c4b1a719534</ComponentId>
+<IsChildPhantom>false</IsChildPhantom>
+<IsPartConfigurable>false</IsPartConfigurable>
+<IsPartCollapsible>false</IsPartCollapsible>
+<ItemCategory/>
+<SortString/>
+<TargetID>JUA</TargetID>
+</BOMComponent>
+</BOMComponent>
+<BOMComponent>
+<ACTION>C</ACTION>
+<BOMComponent>
+<ObjectID>OR:wt.part.WTPartUsageLink:142201:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.BOMComponent</Class>
+<PartNumber>BOMAATEST4</PartNumber>
+<AssemblyPartNumber>BOMAATEST</AssemblyPartNumber>
+<AssemblyPartID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</AssemblyPartID>
+<Quantity>4</Quantity>
+<Unit>each</Unit>
+<SEQ>40</SEQ>
+<FindNumber/>
+<AlternateItemGroup/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<ComponentId>8f0a6a28-076d-4196-8bbb-71cb9eccbc95</ComponentId>
+<IsChildPhantom>false</IsChildPhantom>
+<IsPartConfigurable>false</IsPartConfigurable>
+<IsPartCollapsible>false</IsPartCollapsible>
+<ItemCategory/>
+<SortString/>
+<TargetID>JUA</TargetID>
+</BOMComponent>
+</BOMComponent>
+</BOMCOMPONENTS-BOMCOMPONENTS>
+<PARTS-PARTS>
+<AddedParts NAME="AddedParts" TYPE="Unknown" STATUS="0">
+<Part>
+<ObjectID>OR:wt.part.WTPart:142223:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.Part</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<Number>BOMAATEST6</Number>
+<StartEffectivity>2016-09-19 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+<Description>BomAATEST6</Description>
+<PartType>separable</PartType>
+<ProcurementType>make</ProcurementType>
+<ItemStatus>RELEASED</ItemStatus>
+<View/>
+<StorageLocation/>
+<Phantom>false</Phantom>
+<Revision>-</Revision>
+<Iteration>1</Iteration>
+<PreviousVersion/>
+<IsConfigurable>false</IsConfigurable>
+<Classification/>
+<IsCollapsible>false</IsCollapsible>
+<AgencyRequired>Yes</AgencyRequired>
+<CodeNumber/>
+<EngineeringDescription>BomAATEST6</EngineeringDescription>
+<ROHSRequired>YES</ROHSRequired>
+<UNIT-WEIGHT>123.45886682353144</UNIT-WEIGHT>
+<GlobalPartNumber/>
+<Length>6 m</Length>
+<Width>6 m</Width>
+<Height>6 m</Height>
+<ProjectNumber/>
+<MaterialType>M</MaterialType>
+<PartFamilyCode/>
+<BuyAmerican>No</BuyAmerican>
+<BuyAmericanXref/>
+<MatlGroup/>
+<LabOffice/>
+<WEIGHT-UNITS>lbs</WEIGHT-UNITS>
+<DimensionUnits/>
+<ProdHierarchy/>
+<ItemCategoryGroup/>
+<MRPType/>
+<MfgPartNumber/>
+<MfgNumber/>
+<MfgName/>
+<SerialNumber/>
+<CADIndicator/>
+<COUNTRY-OF-ORIGIN/>
+<StdCost/>
+<MaterialCost/>
+<AccumMaterialCost/>
+<BuildToOrder/>
+<CommodityCode/>
+<YearUsage/>
+<YearForecast/>
+<SalesLeadTime/>
+<MinCustOrderQty/>
+<PackQty/>
+<PackType/>
+<PlannerID/>
+<PlannerCode/>
+<OrderMinQty/>
+<OrderMultiple/>
+<MfgShipPlant/>
+<StockWarehouse/>
+<AssembledToOrder/>
+<Stockable/>
+<SubAssembly/>
+<StandardLeadTime/>
+<BuyerID/>
+<SingleSourced/>
+<VendorNumber/>
+<VendorName/>
+<VendorItem/>
+<VendorUOM/>
+<ConversionFactor/>
+<VendorLeadTime/>
+<QuoteQty/>
+<QuoteCost/>
+<QuoteDate/>
+<MfgLeadTime/>
+<NoCancelReturn/>
+<ExtendedABCCode/>
+<PurRevisionEffectivityDate/>
+<FixedLeadTime/>
+<AutoReplenish/>
+<AcceptRequirements/>
+<ReplenishDays/>
+<TargetID>JUA</TargetID>
+<DRAWING-NBR>FCN00091</DRAWING-NBR>
+</Part>
+</AddedParts>
+<ChangedParts NAME="ChangedParts" TYPE="Unknown" STATUS="0">
+<Part>
+<ObjectID>OR:wt.part.WTPart:142196:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.Part</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<Number>BOMAATEST</Number>
+<StartEffectivity>2016-09-19 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+<Description>BomAAtest</Description>
+<PartType>separable</PartType>
+<ProcurementType>make</ProcurementType>
+<ItemStatus>RELEASED</ItemStatus>
+<View/>
+<StorageLocation/>
+<Phantom>false</Phantom>
+<Revision>E</Revision>
+<Iteration>2</Iteration>
+<PreviousVersion>D</PreviousVersion>
+<IsConfigurable>false</IsConfigurable>
+<Classification/>
+<IsCollapsible>false</IsCollapsible>
+<AgencyRequired>No</AgencyRequired>
+<CodeNumber/>
+<EngineeringDescription>BomAAtest</EngineeringDescription>
+<ROHSRequired>YES</ROHSRequired>
+<UNIT-WEIGHT>2.2046226218487757</UNIT-WEIGHT>
+<GlobalPartNumber/>
+<Length>1 m</Length>
+<Width>1 m</Width>
+<Height>1 m</Height>
+<ProjectNumber/>
+<MaterialType>M</MaterialType>
+<PartFamilyCode/>
+<BuyAmerican>No</BuyAmerican>
+<BuyAmericanXref/>
+<MatlGroup/>
+<LabOffice/>
+<WEIGHT-UNITS>lbs</WEIGHT-UNITS>
+<DimensionUnits/>
+<ProdHierarchy/>
+<ItemCategoryGroup/>
+<MRPType/>
+<MfgPartNumber/>
+<MfgNumber/>
+<MfgName/>
+<SerialNumber/>
+<CADIndicator/>
+<COUNTRY-OF-ORIGIN/>
+<StdCost/>
+<MaterialCost/>
+<AccumMaterialCost/>
+<BuildToOrder/>
+<CommodityCode/>
+<YearUsage/>
+<YearForecast/>
+<SalesLeadTime/>
+<MinCustOrderQty/>
+<PackQty/>
+<PackType/>
+<PlannerID/>
+<PlannerCode/>
+<OrderMinQty/>
+<OrderMultiple/>
+<MfgShipPlant/>
+<StockWarehouse/>
+<AssembledToOrder/>
+<Stockable/>
+<SubAssembly/>
+<StandardLeadTime/>
+<BuyerID/>
+<SingleSourced/>
+<VendorNumber/>
+<VendorName/>
+<VendorItem/>
+<VendorUOM/>
+<ConversionFactor/>
+<VendorLeadTime/>
+<QuoteQty/>
+<QuoteCost/>
+<QuoteDate/>
+<MfgLeadTime/>
+<NoCancelReturn/>
+<ExtendedABCCode/>
+<PurRevisionEffectivityDate/>
+<FixedLeadTime/>
+<AutoReplenish/>
+<AcceptRequirements/>
+<ReplenishDays/>
+<TargetID>JUA</TargetID>
+<DRAWING-NBR>FCN00091</DRAWING-NBR>
+</Part>
+</ChangedParts>
+<UnchangedParts NAME="UnchangedParts" TYPE="Unknown" STATUS="0">
+<Part>
+<ObjectID>OR:wt.part.WTPart:139204:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.Part</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<Number>BOMAATEST2</Number>
+<StartEffectivity>2016-09-13 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+<Description>BomAAtest2</Description>
+<PartType>separable</PartType>
+<ProcurementType>make</ProcurementType>
+<ItemStatus>RELEASED</ItemStatus>
+<View/>
+<StorageLocation/>
+<Phantom>false</Phantom>
+<Revision>-</Revision>
+<Iteration>1</Iteration>
+<PreviousVersion/>
+<IsConfigurable>false</IsConfigurable>
+<Classification/>
+<IsCollapsible>false</IsCollapsible>
+<AgencyRequired>No</AgencyRequired>
+<CodeNumber/>
+<EngineeringDescription>BomAAtest2</EngineeringDescription>
+<ROHSRequired>NO</ROHSRequired>
+<UNIT-WEIGHT>26.455471462185308</UNIT-WEIGHT>
+<GlobalPartNumber/>
+<Length>2 m</Length>
+<Width>3 m</Width>
+<Height>4 m</Height>
+<ProjectNumber/>
+<MaterialType>M</MaterialType>
+<PartFamilyCode/>
+<BuyAmerican>No</BuyAmerican>
+<BuyAmericanXref/>
+<MatlGroup/>
+<LabOffice/>
+<WEIGHT-UNITS>lbs</WEIGHT-UNITS>
+<DimensionUnits/>
+<ProdHierarchy/>
+<ItemCategoryGroup/>
+<MRPType/>
+<MfgPartNumber/>
+<MfgNumber/>
+<MfgName/>
+<SerialNumber/>
+<CADIndicator/>
+<COUNTRY-OF-ORIGIN/>
+<StdCost/>
+<MaterialCost/>
+<AccumMaterialCost/>
+<BuildToOrder/>
+<CommodityCode/>
+<YearUsage/>
+<YearForecast/>
+<SalesLeadTime/>
+<MinCustOrderQty/>
+<PackQty/>
+<PackType/>
+<PlannerID/>
+<PlannerCode/>
+<OrderMinQty/>
+<OrderMultiple/>
+<MfgShipPlant/>
+<StockWarehouse/>
+<AssembledToOrder/>
+<Stockable/>
+<SubAssembly/>
+<StandardLeadTime/>
+<BuyerID/>
+<SingleSourced/>
+<VendorNumber/>
+<VendorName/>
+<VendorItem/>
+<VendorUOM/>
+<ConversionFactor/>
+<VendorLeadTime/>
+<QuoteQty/>
+<QuoteCost/>
+<QuoteDate/>
+<MfgLeadTime/>
+<NoCancelReturn/>
+<ExtendedABCCode/>
+<PurRevisionEffectivityDate/>
+<FixedLeadTime/>
+<AutoReplenish/>
+<AcceptRequirements/>
+<ReplenishDays/>
+<TargetID>JUA</TargetID>
+<DRAWING-NBR>FCN00091</DRAWING-NBR>
+</Part>
+<Part>
+<ObjectID>OR:wt.part.WTPart:141003:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.Part</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<Number>BOMWITHANOTHERDT</Number>
+<StartEffectivity>2016-09-13 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+<Description>BomwithanotherDT</Description>
+<PartType>separable</PartType>
+<ProcurementType>make</ProcurementType>
+<ItemStatus>RELEASED</ItemStatus>
+<View/>
+<StorageLocation/>
+<Phantom>false</Phantom>
+<Revision>-</Revision>
+<Iteration>1</Iteration>
+<PreviousVersion/>
+<IsConfigurable>false</IsConfigurable>
+<Classification/>
+<IsCollapsible>false</IsCollapsible>
+<AgencyRequired>No</AgencyRequired>
+<CodeNumber/>
+<EngineeringDescription>BomwithanotherDT</EngineeringDescription>
+<ROHSRequired>NO</ROHSRequired>
+<UNIT-WEIGHT>6.613867865546327</UNIT-WEIGHT>
+<GlobalPartNumber/>
+<Length>3 m</Length>
+<Width>3 m</Width>
+<Height>3 m</Height>
+<ProjectNumber/>
+<MaterialType>M</MaterialType>
+<PartFamilyCode/>
+<BuyAmerican>No</BuyAmerican>
+<BuyAmericanXref/>
+<MatlGroup/>
+<LabOffice/>
+<WEIGHT-UNITS>lbs</WEIGHT-UNITS>
+<DimensionUnits/>
+<ProdHierarchy/>
+<ItemCategoryGroup/>
+<MRPType/>
+<MfgPartNumber/>
+<MfgNumber/>
+<MfgName/>
+<SerialNumber/>
+<CADIndicator/>
+<COUNTRY-OF-ORIGIN/>
+<StdCost/>
+<MaterialCost/>
+<AccumMaterialCost/>
+<BuildToOrder/>
+<CommodityCode/>
+<YearUsage/>
+<YearForecast/>
+<SalesLeadTime/>
+<MinCustOrderQty/>
+<PackQty/>
+<PackType/>
+<PlannerID/>
+<PlannerCode/>
+<OrderMinQty/>
+<OrderMultiple/>
+<MfgShipPlant/>
+<StockWarehouse/>
+<AssembledToOrder/>
+<Stockable/>
+<SubAssembly/>
+<StandardLeadTime/>
+<BuyerID/>
+<SingleSourced/>
+<VendorNumber/>
+<VendorName/>
+<VendorItem/>
+<VendorUOM/>
+<ConversionFactor/>
+<VendorLeadTime/>
+<QuoteQty/>
+<QuoteCost/>
+<QuoteDate/>
+<MfgLeadTime/>
+<NoCancelReturn/>
+<ExtendedABCCode/>
+<PurRevisionEffectivityDate/>
+<FixedLeadTime/>
+<AutoReplenish/>
+<AcceptRequirements/>
+<ReplenishDays/>
+<TargetID>JUA</TargetID>
+<DRAWING-NBR>FCN00091</DRAWING-NBR>
+</Part>
+<Part>
+<ObjectID>OR:wt.part.WTPart:140383:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.Part</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<Number>BOMAATEST4</Number>
+<StartEffectivity>2016-09-13 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+<Description>BOMAATEST4</Description>
+<PartType>separable</PartType>
+<ProcurementType>make</ProcurementType>
+<ItemStatus>RELEASED</ItemStatus>
+<View/>
+<StorageLocation/>
+<Phantom>false</Phantom>
+<Revision>-</Revision>
+<Iteration>1</Iteration>
+<PreviousVersion/>
+<IsConfigurable>false</IsConfigurable>
+<Classification/>
+<IsCollapsible>false</IsCollapsible>
+<AgencyRequired>No</AgencyRequired>
+<CodeNumber/>
+<EngineeringDescription>BOMAATEST4</EngineeringDescription>
+<ROHSRequired>NO</ROHSRequired>
+<UNIT-WEIGHT>11.023113109243878</UNIT-WEIGHT>
+<GlobalPartNumber/>
+<Length>5 m</Length>
+<Width>4 m</Width>
+<Height>3 m</Height>
+<ProjectNumber/>
+<MaterialType>M</MaterialType>
+<PartFamilyCode/>
+<BuyAmerican>No</BuyAmerican>
+<BuyAmericanXref/>
+<MatlGroup/>
+<LabOffice/>
+<WEIGHT-UNITS>lbs</WEIGHT-UNITS>
+<DimensionUnits/>
+<ProdHierarchy/>
+<ItemCategoryGroup/>
+<MRPType/>
+<MfgPartNumber/>
+<MfgNumber/>
+<MfgName/>
+<SerialNumber/>
+<CADIndicator/>
+<COUNTRY-OF-ORIGIN/>
+<StdCost/>
+<MaterialCost/>
+<AccumMaterialCost/>
+<BuildToOrder/>
+<CommodityCode/>
+<YearUsage/>
+<YearForecast/>
+<SalesLeadTime/>
+<MinCustOrderQty/>
+<PackQty/>
+<PackType/>
+<PlannerID/>
+<PlannerCode/>
+<OrderMinQty/>
+<OrderMultiple/>
+<MfgShipPlant/>
+<StockWarehouse/>
+<AssembledToOrder/>
+<Stockable/>
+<SubAssembly/>
+<StandardLeadTime/>
+<BuyerID/>
+<SingleSourced/>
+<VendorNumber/>
+<VendorName/>
+<VendorItem/>
+<VendorUOM/>
+<ConversionFactor/>
+<VendorLeadTime/>
+<QuoteQty/>
+<QuoteCost/>
+<QuoteDate/>
+<MfgLeadTime/>
+<NoCancelReturn/>
+<ExtendedABCCode/>
+<PurRevisionEffectivityDate/>
+<FixedLeadTime/>
+<AutoReplenish/>
+<AcceptRequirements/>
+<ReplenishDays/>
+<TargetID>JUA</TargetID>
+<DRAWING-NBR>FCN00091</DRAWING-NBR>
+</Part>
+<Part>
+<ObjectID>OR:wt.part.WTPart:141645:258849013-1469111825022-123418227-71-0-88-10@jci-dev5.ptcmscloud.com</ObjectID>
+<Class>com.ptc.windchill.esi.Part</Class>
+<LastChangedBy>beOrgAdmin</LastChangedBy>
+<Number>BOMAATEST5</Number>
+<StartEffectivity>2016-09-16 00:00:00</StartEffectivity>
+<EndEffectivity/>
+<StartSerialNumberEffectivity/>
+<EndSerialNumberEffectivity/>
+<StartLotNumberEffectivity/>
+<EndLotNumberEffectivity/>
+<SerialNumberEffectivityCxtPartNumber/>
+<LotNumberEffectivityCxtPartNumber/>
+<BaseUnitOfMeasure>ea</BaseUnitOfMeasure>
+<Description>BOMAATEST5</Description>
+<PartType>separable</PartType>
+<ProcurementType>make</ProcurementType>
+<ItemStatus>RELEASED</ItemStatus>
+<View/>
+<StorageLocation/>
+<Phantom>false</Phantom>
+<Revision>-</Revision>
+<Iteration>1</Iteration>
+<PreviousVersion/>
+<IsConfigurable>false</IsConfigurable>
+<Classification/>
+<IsCollapsible>false</IsCollapsible>
+<AgencyRequired>No</AgencyRequired>
+<CodeNumber/>
+<EngineeringDescription>BOMAATEST5</EngineeringDescription>
+<ROHSRequired>NO</ROHSRequired>
+<UNIT-WEIGHT>NaN</UNIT-WEIGHT>
+<GlobalPartNumber/>
+<Length>2 m</Length>
+<Width>4 m</Width>
+<Height>5 m</Height>
+<ProjectNumber/>
+<MaterialType>M</MaterialType>
+<PartFamilyCode/>
+<BuyAmerican>No</BuyAmerican>
+<BuyAmericanXref/>
+<MatlGroup/>
+<LabOffice/>
+<WEIGHT-UNITS>lbs</WEIGHT-UNITS>
+<DimensionUnits/>
+<ProdHierarchy/>
+<ItemCategoryGroup/>
+<MRPType/>
+<MfgPartNumber/>
+<MfgNumber/>
+<MfgName/>
+<SerialNumber/>
+<CADIndicator/>
+<COUNTRY-OF-ORIGIN/>
+<StdCost/>
+<MaterialCost/>
+<AccumMaterialCost/>
+<BuildToOrder/>
+<CommodityCode/>
+<YearUsage/>
+<YearForecast/>
+<SalesLeadTime/>
+<MinCustOrderQty/>
+<PackQty/>
+<PackType/>
+<PlannerID/>
+<PlannerCode/>
+<OrderMinQty/>
+<OrderMultiple/>
+<MfgShipPlant/>
+<StockWarehouse/>
+<AssembledToOrder/>
+<Stockable/>
+<SubAssembly/>
+<StandardLeadTime/>
+<BuyerID/>
+<SingleSourced/>
+<VendorNumber/>
+<VendorName/>
+<VendorItem/>
+<VendorUOM/>
+<ConversionFactor/>
+<VendorLeadTime/>
+<QuoteQty/>
+<QuoteCost/>
+<QuoteDate/>
+<MfgLeadTime/>
+<NoCancelReturn/>
+<ExtendedABCCode/>
+<PurRevisionEffectivityDate/>
+<FixedLeadTime/>
+<AutoReplenish/>
+<AcceptRequirements/>
+<ReplenishDays/>
+<TargetID>JUA</TargetID>
+<DRAWING-NBR>FCN00091</DRAWING-NBR>
+</Part>
+</UnchangedParts>
+</PARTS-PARTS>
+</COLLECTION>
